@@ -1,0 +1,8 @@
+=== miniperf roofline results for map_based_prediction ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| map_based_prediction::process_loop_0     |     6.9539 |        157.6632 | Compute  |
+| map_based_prediction::process_loop_1     |     5.4874 |         97.0860 | Compute  |
+| map_based_prediction::process_loop_2     |     3.6789 |        151.8233 | Compute  |
+| map_based_prediction::process_loop_3     |     9.3788 |        184.6725 | Compute  |

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><title>Node Latency Rankings</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #4CAF50; color: white; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+.high { background-color: #ffcccc; }
+.medium { background-color: #ffffcc; }
+.low { background-color: #ccffcc; }
+</style></head><body>
+<h1>Node Latency Rankings</h1>
+<table><tr><th>Rank</th><th>Node Name</th><th>Latency (ms)</th><th>% of Total</th><th>% of Longest Path</th><th>In Longest Path</th></tr>
+<tr class="high"><td>1</td><td>/autoware/lidar_centerpoint</td><td>45.2</td><td>13.5%</td><td>18.17%</td><td>Yes</td></tr>
+<tr class="high"><td>2</td><td>/autoware/ndt_scan_matcher</td><td>38.7</td><td>11.56%</td><td>15.55%</td><td>Yes</td></tr>
+<tr class="high"><td>3</td><td>/autoware/occupancy_grid_map_node</td><td>35.1</td><td>10.49%</td><td>14.11%</td><td>Yes</td></tr>
+<tr class="medium"><td>4</td><td>/autoware/euclidean_cluster</td><td>32.4</td><td>9.68%</td><td>13.02%</td><td>Yes</td></tr>
+<tr class="medium"><td>5</td><td>/autoware/multi_object_tracker</td><td>28.6</td><td>8.54%</td><td>11.5%</td><td>Yes</td></tr>
+<tr class="medium"><td>6</td><td>/autoware/pointcloud_concatenate_data</td><td>25.8</td><td>7.71%</td><td>10.37%</td><td>Yes</td></tr>
+<tr class="medium"><td>7</td><td>/autoware/behavior_path_planner</td><td>22.1</td><td>6.6%</td><td>8.88%</td><td>Yes</td></tr>
+<tr class="medium"><td>8</td><td>/autoware/map_based_prediction</td><td>20.9</td><td>6.24%</td><td>8.4%</td><td>Yes</td></tr>
+<tr class="medium"><td>9</td><td>/autoware/motion_velocity_planner</td><td>18.5</td><td>5.53%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>10</td><td>/autoware/ekf_localizer</td><td>15.3</td><td>4.57%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>11</td><td>/autoware/shape_estimation</td><td>14.2</td><td>4.24%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>12</td><td>/autoware/autonomous_emergency_braking</td><td>12.7</td><td>3.79%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>13</td><td>/autoware/trajectory_follower_controller</td><td>10.5</td><td>3.14%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>14</td><td>/autoware/mission_planner</td><td>8.4</td><td>2.51%</td><td>0%</td><td>No</td></tr>
+<tr class="low"><td>15</td><td>/autoware/velocity_smoother</td><td>6.3</td><td>1.88%</td><td>0%</td><td>No</td></tr>
+</table></body></html>

@@ -1,0 +1,8 @@
+=== miniperf roofline results for autonomous_emergency_braking ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| autonomous_emergency_braking::process_loop_0 |    14.9615 |         51.3727 | Compute  |
+| autonomous_emergency_braking::process_loop_1 |    22.9407 |        106.6693 | Compute  |
+| autonomous_emergency_braking::process_loop_2 |    20.8341 |        180.7611 | Compute  |
+| autonomous_emergency_braking::process_loop_3 |    11.7244 |        168.9404 | Compute  |

@@ -1,0 +1,6 @@
+=== miniperf roofline results for mission_planner ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| mission_planner::process_loop_0          |    29.6173 |        173.4533 | Compute  |
+| mission_planner::process_loop_1          |    37.5342 |        208.8986 | Compute  |

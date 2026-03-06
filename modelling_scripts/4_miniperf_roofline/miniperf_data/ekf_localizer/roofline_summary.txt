@@ -1,0 +1,8 @@
+=== miniperf roofline results for ekf_localizer ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| ekf_localizer::process_loop_0            |    27.8208 |        157.9309 | Compute  |
+| ekf_localizer::process_loop_1            |    14.9226 |         79.9088 | Compute  |
+| ekf_localizer::process_loop_2            |    17.4677 |         97.6083 | Compute  |
+| ekf_localizer::process_loop_3            |    14.8127 |         45.3149 | Compute  |

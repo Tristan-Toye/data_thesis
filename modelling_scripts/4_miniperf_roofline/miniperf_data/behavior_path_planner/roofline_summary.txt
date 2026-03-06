@@ -1,0 +1,7 @@
+=== miniperf roofline results for behavior_path_planner ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| behavior_path_planner::process_loop_0    |    28.1066 |        181.4831 | Compute  |
+| behavior_path_planner::process_loop_1    |    18.4394 |         26.3663 | Compute  |
+| behavior_path_planner::process_loop_2    |    33.5878 |         70.7718 | Compute  |

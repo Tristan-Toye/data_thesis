@@ -1,0 +1,8 @@
+=== miniperf roofline results for shape_estimation ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| shape_estimation::process_loop_0         |    12.0903 |         24.8326 | Compute  |
+| shape_estimation::process_loop_1         |    11.4722 |        130.5472 | Compute  |
+| shape_estimation::process_loop_2         |     7.6575 |        200.3163 | Compute  |
+| shape_estimation::process_loop_3         |     5.9719 |         95.2487 | Compute  |

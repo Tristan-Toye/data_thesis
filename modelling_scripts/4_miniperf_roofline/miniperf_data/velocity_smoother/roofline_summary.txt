@@ -1,0 +1,8 @@
+=== miniperf roofline results for velocity_smoother ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| velocity_smoother::process_loop_0        |    34.4019 |        185.8911 | Compute  |
+| velocity_smoother::process_loop_1        |    23.2551 |         70.5705 | Compute  |
+| velocity_smoother::process_loop_2        |    29.8300 |        107.5492 | Compute  |
+| velocity_smoother::process_loop_3        |    30.2881 |        188.3220 | Compute  |

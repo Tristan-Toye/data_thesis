@@ -1,0 +1,144 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/opt/ros/humble/bin/ros2", line 33, in <module>
+    sys.exit(load_entry_point('ros2cli==0.18.17', 'console_scripts', 'ros2')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/cli.py", line 52, in main
+    add_subparsers_on_demand(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 250, in add_subparsers_on_demand
+    extension.add_arguments(
+  File "/home/tristan-toye/ros2_caret_ws/build/ros2caret/ros2caret/command/caret.py", line 22, in add_arguments
+    add_subparsers_on_demand(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 235, in add_subparsers_on_demand
+    command_extensions = get_command_extensions(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 57, in get_command_extensions
+    extensions = instantiate_extensions(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/plugin_system.py", line 40, in instantiate_extensions
+    extension_types = load_entry_points(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/entry_points.py", line 91, in load_entry_points
+    extension_type = entry_point.load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/tristan-toye/ros2_caret_ws/build/ros2caret/ros2caret/verb/check_ctf.py", line 18, in <module>
+    from caret_analyze import (Architecture,
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/__init__.py", line 18, in <module>
+    from .architecture import \
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/__init__.py", line 15, in <module>
+    from .architecture import Architecture, DEFAULT_MAX_CALLBACK_CONSTRUCTION_ORDER_ON_PATH_SEARCHING
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/architecture.py", line 22, in <module>
+    from .architecture_reader_factory import ArchitectureReaderFactory
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/architecture_reader_factory.py", line 15, in <module>
+    from ..infra import (ArchitectureReaderLttng,
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/infra/__init__.py", line 16, in <module>
+    from .interface import RecordsProvider, RuntimeDataProvider
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/infra/interface.py", line 20, in <module>
+    from ..record import RecordsInterface
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/record/__init__.py", line 16, in <module>
+    from .data_frame_shaper import Clip, DataFrameShaper, Strip
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/record/data_frame_shaper.py", line 17, in <module>
+    import pandas as pd
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 5, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 53, in <module>
+    from pandas.core import (
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/ops/__init__.py", line 8, in <module>
+    from pandas.core.ops.array_ops import (
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 56, in <module>
+    from pandas.core.computation import expressions
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/computation/expressions.py", line 21, in <module>
+    from pandas.core.computation.check import NUMEXPR_INSTALLED
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/computation/check.py", line 5, in <module>
+    ne = import_optional_dependency("numexpr", errors="warn")
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/usr/lib/python3/dist-packages/numexpr/__init__.py", line 24, in <module>
+    from numexpr.interpreter import MAX_THREADS, use_vml, __BLOCK_SIZE1__
+AttributeError: _ARRAY_API not found
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/opt/ros/humble/bin/ros2", line 33, in <module>
+    sys.exit(load_entry_point('ros2cli==0.18.17', 'console_scripts', 'ros2')())
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/cli.py", line 52, in main
+    add_subparsers_on_demand(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 250, in add_subparsers_on_demand
+    extension.add_arguments(
+  File "/home/tristan-toye/ros2_caret_ws/build/ros2caret/ros2caret/command/caret.py", line 22, in add_arguments
+    add_subparsers_on_demand(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 235, in add_subparsers_on_demand
+    command_extensions = get_command_extensions(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/command/__init__.py", line 57, in get_command_extensions
+    extensions = instantiate_extensions(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/plugin_system.py", line 40, in instantiate_extensions
+    extension_types = load_entry_points(
+  File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/entry_points.py", line 91, in load_entry_points
+    extension_type = entry_point.load()
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+    module = import_module(match.group('module'))
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/tristan-toye/ros2_caret_ws/build/ros2caret/ros2caret/verb/check_ctf.py", line 18, in <module>
+    from caret_analyze import (Architecture,
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/__init__.py", line 18, in <module>
+    from .architecture import \
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/__init__.py", line 15, in <module>
+    from .architecture import Architecture, DEFAULT_MAX_CALLBACK_CONSTRUCTION_ORDER_ON_PATH_SEARCHING
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/architecture.py", line 22, in <module>
+    from .architecture_reader_factory import ArchitectureReaderFactory
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/architecture/architecture_reader_factory.py", line 15, in <module>
+    from ..infra import (ArchitectureReaderLttng,
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/infra/__init__.py", line 16, in <module>
+    from .interface import RecordsProvider, RuntimeDataProvider
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/infra/interface.py", line 20, in <module>
+    from ..record import RecordsInterface
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/record/__init__.py", line 16, in <module>
+    from .data_frame_shaper import Clip, DataFrameShaper, Strip
+  File "/home/tristan-toye/ros2_caret_ws/build/caret_analyze/caret_analyze/record/data_frame_shaper.py", line 17, in <module>
+    import pandas as pd
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 5, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 67, in <module>
+    from pandas.core.arrays.masked import BaseMaskedArray
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/arrays/masked.py", line 61, in <module>
+    from pandas.core import (
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/core/nanops.py", line 52, in <module>
+    bn = import_optional_dependency("bottleneck", errors="warn")
+  File "/home/tristan-toye/.local/lib/python3.10/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/usr/lib/python3/dist-packages/bottleneck/__init__.py", line 2, in <module>
+    from .reduce import (
+AttributeError: _ARRAY_API not found
+Succeed to find record_cpp_impl. the C++ version will be used.
+WARNING : 2026-03-05 13:20:51 | 

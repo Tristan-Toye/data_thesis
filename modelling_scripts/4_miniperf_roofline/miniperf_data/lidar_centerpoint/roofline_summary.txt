@@ -1,0 +1,6 @@
+=== miniperf roofline results for lidar_centerpoint ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| lidar_centerpoint::process_loop_0        |     0.6152 |         58.7183 | Memory   |
+| lidar_centerpoint::process_loop_1        |     1.3389 |         64.5111 | Memory   |

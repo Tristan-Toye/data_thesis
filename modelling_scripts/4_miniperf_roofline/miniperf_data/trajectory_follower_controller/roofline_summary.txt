@@ -1,0 +1,7 @@
+=== miniperf roofline results for trajectory_follower_controller ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| trajectory_follower_controller::process_loop_0 |    22.1521 |         26.6370 | Compute  |
+| trajectory_follower_controller::process_loop_1 |    19.2805 |        150.2113 | Compute  |
+| trajectory_follower_controller::process_loop_2 |    21.2443 |         52.4917 | Compute  |

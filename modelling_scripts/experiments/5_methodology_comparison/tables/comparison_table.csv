@@ -1,0 +1,16 @@
+,caret_latency_ms,caret_pct_total,caret_rank,perf_ops_per_byte,perf_cache_hit_rate,perf_raw_bottleneck,perf_bottleneck,mperf_arithmetic_intensity,mperf_peak_gflops,mperf_raw_bound,mperf_n_hotspots,mperf_bottleneck
+autonomous_emergency_braking,12.7,3.79,12,15.360118666837256,90.11773333305236,compute,compute,17.6514336881319,180.7611,Compute,4,compute
+behavior_path_planner,22.1,6.6,7,33.332271013186606,93.54455457671544,compute,compute,28.584044267701096,181.4831,Compute,3,compute
+ekf_localizer,15.3,4.57,10,97.0401691331924,95.86546675407752,branches,branch,20.911805122662948,157.9309,Compute,4,compute
+euclidean_cluster,32.4,9.68,4,3.3667727270965666,89.98857739705883,"memory, cache",memory,5.092919853908015,136.4342,Compute,2,compute
+lidar_centerpoint,45.2,13.5,1,0.6047994706180015,41.66997151273148,"memory, cache",memory,0.994059939835786,64.5111,Memory,2,memory
+map_based_prediction,20.9,6.24,8,2.8781247496194213,85.23995598234315,"memory, cache",memory,6.629524180754171,184.6725,Compute,4,compute
+mission_planner,8.4,2.51,14,41.14776951672862,96.47853521028424,compute,compute,33.94271155500992,208.8986,Compute,2,compute
+motion_velocity_planner,18.5,5.53,9,18.601138658680966,90.81750372185586,branches,branch,24.87959345245045,192.0979,Compute,4,compute
+multi_object_tracker,28.6,8.54,5,3.701574037571371,85.7640839763732,"memory, cache",memory,5.615530343914002,163.8963,Compute,4,compute
+ndt_scan_matcher,38.7,11.56,2,0.4555456703035028,49.79269520044754,"memory, branches, cache",memory,1.4365098418785718,85.5292,Memory,3,memory
+occupancy_grid_map_node,35.1,10.49,3,0.5981115202936722,64.4898980189787,"memory, cache",memory,0.8439418368858115,69.6593,Memory,2,memory
+pointcloud_concatenate_data,25.8,7.71,6,0.8586050388217754,61.266519080419954,"memory, branches, cache",memory,1.720193522249772,28.7723,Memory,3,memory
+shape_estimation,14.2,4.24,11,2.180436613786326,83.67650367637867,"memory, branches, cache",memory,8.64991668692044,200.3163,Compute,4,compute
+trajectory_follower_controller,10.5,3.14,13,11.157684677297746,92.69297262633177,branches,branch,20.06350344318479,150.2113,Compute,3,compute
+velocity_smoother,6.3,1.88,15,40.56097584282547,95.90441869421058,compute,compute,30.68483217335636,188.322,Compute,4,compute
