@@ -1,0 +1,21 @@
+# started on Mon Mar 16 08:53:44 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_trajectory_follower_node controller_node_exe --ros-args --params-file /tmp/sweep_trajectory_follower_controller_ctrl_period_0.05_r1.yaml -r __ns:=/control/trajectory_follower -r __node:=controller_node_exe --ros-args -p use_sim_time:=true':
+
+     5.080.463.352      instructions                     #    0,58  insn per cycle              (55,51%)
+     8.723.095.436      cycles                                                                  (66,46%)
+       101.145.551      L1-dcache-load-misses            #    7,62% of all L1-dcache accesses   (65,46%)
+     1.326.623.761      L1-dcache-loads                                                         (66,37%)
+        15.387.018      LLC-load-misses                  #   39,14% of all LL-cache accesses    (66,58%)
+        39.317.602      LLC-loads                                                               (67,01%)
+       439.419.911      cache-references                                                        (45,04%)
+       121.567.708      cache-misses                     #   27,67% of all cache refs           (44,99%)
+        59.682.396      bus-cycles                                                              (44,54%)
+
+     142,362274237 seconds time elapsed
+
+       1,760036000 seconds user
+       1,371917000 seconds sys
+
+

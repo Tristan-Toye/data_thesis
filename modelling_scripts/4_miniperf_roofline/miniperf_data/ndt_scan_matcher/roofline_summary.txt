@@ -1,0 +1,7 @@
+=== miniperf roofline results for ndt_scan_matcher ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| ndt_scan_matcher::process_loop_0         |     1.0004 |         85.5292 | Memory   |
+| ndt_scan_matcher::process_loop_1         |     1.4285 |         54.8081 | Memory   |
+| ndt_scan_matcher::process_loop_2         |     2.0316 |         63.4175 | Memory   |

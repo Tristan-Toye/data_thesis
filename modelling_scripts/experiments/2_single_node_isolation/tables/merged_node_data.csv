@@ -1,0 +1,16 @@
+node_name,short_name,namespace,package,executable,latency_ms,percentage_of_total,percentage_of_longest_path,in_longest_path
+/autoware/lidar_centerpoint,lidar_centerpoint,/autoware,lidar_centerpoint,lidar_centerpoint_node,45.2,13.5,18.17,True
+/autoware/ndt_scan_matcher,ndt_scan_matcher,/autoware,ndt_scan_matcher,ndt_scan_matcher_node,38.7,11.56,15.55,True
+/autoware/occupancy_grid_map_node,occupancy_grid_map_node,/autoware,probabilistic_occupancy_grid_map,occupancy_grid_map_node,35.1,10.49,14.11,True
+/autoware/euclidean_cluster,euclidean_cluster,/autoware,euclidean_cluster,euclidean_cluster_node,32.4,9.68,13.02,True
+/autoware/multi_object_tracker,multi_object_tracker,/autoware,multi_object_tracker,multi_object_tracker_node,28.6,8.54,11.5,True
+/autoware/pointcloud_concatenate_data,pointcloud_concatenate_data,/autoware,pointcloud_preprocessor,pointcloud_concatenate_data_synchronizer_node,25.8,7.71,10.37,True
+/autoware/behavior_path_planner,behavior_path_planner,/autoware,behavior_path_planner,behavior_path_planner_node,22.1,6.6,8.88,True
+/autoware/map_based_prediction,map_based_prediction,/autoware,map_based_prediction,map_based_prediction_node,20.9,6.24,8.4,True
+/autoware/motion_velocity_planner,motion_velocity_planner,/autoware,motion_velocity_planner,motion_velocity_planner_node,18.5,5.53,0,False
+/autoware/ekf_localizer,ekf_localizer,/autoware,ekf_localizer,ekf_localizer_node,15.3,4.57,0,False
+/autoware/shape_estimation,shape_estimation,/autoware,shape_estimation,shape_estimation_node,14.2,4.24,0,False
+/autoware/autonomous_emergency_braking,autonomous_emergency_braking,/autoware,autonomous_emergency_braking,autonomous_emergency_braking_node,12.7,3.79,0,False
+/autoware/trajectory_follower_controller,trajectory_follower_controller,/autoware,trajectory_follower_nodes,controller_node,10.5,3.14,0,False
+/autoware/mission_planner,mission_planner,/autoware,mission_planner,mission_planner_node,8.4,2.51,0,False
+/autoware/velocity_smoother,velocity_smoother,/autoware,velocity_smoother,velocity_smoother_node,6.3,1.88,0,False

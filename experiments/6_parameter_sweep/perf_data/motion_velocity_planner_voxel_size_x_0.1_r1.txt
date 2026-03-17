@@ -1,0 +1,21 @@
+# started on Tue Mar 17 14:51:10 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_motion_velocity_planner autoware_motion_velocity_planner_node --ros-args --params-file /tmp/sweep_motion_velocity_planner_voxel_size_x_0.1_r1.yaml -r __ns:=/planning/scenario_planning/lane_driving/motion_planning -r __node:=motion_velocity_planner -p wheel_radius:=0.383 -p wheel_width:=0.235 -p wheel_base:=2.79 -p wheel_tread:=1.64 --ros-args -p use_sim_time:=true':
+
+     3.961.791.455      instructions                     #    1,11  insn per cycle              (55,01%)
+     3.569.442.538      cycles                                                                  (66,04%)
+        75.079.889      L1-dcache-load-misses            #    7,40% of all L1-dcache accesses   (66,21%)
+     1.015.090.358      L1-dcache-loads                                                         (66,27%)
+         1.960.625      LLC-load-misses                  #   13,10% of all LL-cache accesses    (66,68%)
+        14.964.039      LLC-loads                                                               (67,19%)
+       116.069.991      cache-references                                                        (44,72%)
+        18.385.227      cache-misses                     #   15,84% of all cache refs           (44,74%)
+        24.015.785      bus-cycles                                                              (44,19%)
+
+       1,102587035 seconds time elapsed
+
+       0,596331000 seconds user
+       0,496316000 seconds sys
+
+

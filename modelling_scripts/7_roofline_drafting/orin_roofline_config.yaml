@@ -1,0 +1,13 @@
+# Jetson Orin AGX 64GB Roofline Configuration
+# Values from orin_datasheet_extract.md (NVIDIA DS-10662-001)
+# Used for experiment 7 roofline drafting
+
+hardware:
+  name: "Nvidia Jetson Orin AGX (64GB)"
+  cpu:
+    peak_fp32_gflops: 105.6
+    peak_fp32_simd_gflops: 422.4
+    peak_fp64_gflops: 52.8
+    peak_memory_bandwidth_GBps: 204.8
+  ridge_point_simd: 2.06    # FLOPs/byte (422.4 / 204.8)
+  ridge_point_scalar: 0.52  # FLOPs/byte (105.6 / 204.8)

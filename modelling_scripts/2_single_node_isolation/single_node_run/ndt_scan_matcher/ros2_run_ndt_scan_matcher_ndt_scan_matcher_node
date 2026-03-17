@@ -1,0 +1,1 @@
+ros2 run ndt_scan_matcher ndt_scan_matcher_node --ros-args --params-file localization__pose_estimator__ndt_scan_matcher.yaml -r __ns:=/localization/pose_estimator -r __node:=ndt_scan_matcher

@@ -1,0 +1,22 @@
+==============================================
+CARET Trace Recording
+==============================================
+Map path:      /home/tristan-toye/autoware_map/sample-map-rosbag
+Rosbag path:   /home/tristan-toye/autoware_map/sample-rosbag
+Output dir:    ./trace_data/caret_trace_20260305_130449
+Rosbag rate:   0.2
+==============================================
+Starting LTTng session...
+Session autoware_trace_20260305_130449 created.
+Traces will be output to /home/tristan-toye/scripts/modelling_scripts/1_caret_tracing/trace_data/caret_trace_20260305_130449/lttng
+ust event ros2:* created in channel channel0
+ust event ros2_caret:* created in channel channel0
+Tracing started for session autoware_trace_20260305_130449
+LTTng session started: autoware_trace_20260305_130449
+Launching Autoware with CARET tracing (headless mode)...
+Waiting for Autoware to initialize (30 seconds)...
+[INFO] [launch]: All log files can be found below /home/tristan-toye/.ros/log/2026-03-05-13-04-52-479517-tristantoye-OMEN-by-HP-Laptop-34405
+[INFO] [launch]: Default logging verbosity is set to INFO
+
+Cleaning up...
+Trace data saved to: ./trace_data/caret_trace_20260305_130449

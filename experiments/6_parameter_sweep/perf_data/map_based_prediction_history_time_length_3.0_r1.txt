@@ -1,0 +1,21 @@
+# started on Mon Mar 16 05:48:21 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_map_based_prediction map_based_prediction --ros-args --params-file /tmp/sweep_map_based_prediction_history_time_length_3.0_r1.yaml -r __ns:=/perception/object_recognition/prediction -r __node:=map_based_prediction --ros-args -p use_sim_time:=true':
+
+     4.702.999.698      instructions                     #    0,64  insn per cycle              (55,25%)
+     7.360.071.682      cycles                                                                  (65,70%)
+        88.386.391      L1-dcache-load-misses            #    7,35% of all L1-dcache accesses   (66,04%)
+     1.201.720.604      L1-dcache-loads                                                         (65,58%)
+        10.969.012      LLC-load-misses                  #   34,22% of all LL-cache accesses    (66,44%)
+        32.053.937      LLC-loads                                                               (65,65%)
+       327.615.507      cache-references                                                        (45,66%)
+        79.644.336      cache-misses                     #   24,31% of all cache refs           (45,55%)
+        50.820.571      bus-cycles                                                              (45,08%)
+
+     149,296476029 seconds time elapsed
+
+       1,417964000 seconds user
+       1,094578000 seconds sys
+
+

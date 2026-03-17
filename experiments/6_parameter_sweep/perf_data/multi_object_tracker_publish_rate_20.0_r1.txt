@@ -1,0 +1,21 @@
+# started on Mon Mar 16 04:49:42 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_multi_object_tracker multi_object_tracker_node --ros-args --params-file /tmp/sweep_multi_object_tracker_publish_rate_20.0_r1.yaml -r __ns:=/perception/object_recognition/tracking -r __node:=multi_object_tracker --ros-args -p use_sim_time:=true':
+
+     6.483.188.128      instructions                     #    0,48  insn per cycle              (55,39%)
+    13.494.227.341      cycles                                                                  (66,39%)
+       159.010.172      L1-dcache-load-misses            #    9,23% of all L1-dcache accesses   (64,76%)
+     1.723.019.402      L1-dcache-loads                                                         (66,12%)
+        20.824.831      LLC-load-misses                  #   28,49% of all LL-cache accesses    (66,72%)
+        73.094.702      LLC-loads                                                               (67,24%)
+       922.292.041      cache-references                                                        (45,79%)
+       215.451.573      cache-misses                     #   23,36% of all cache refs           (44,83%)
+        91.818.491      bus-cycles                                                              (44,53%)
+
+     139,713906946 seconds time elapsed
+
+       3,065055000 seconds user
+       2,132182000 seconds sys
+
+

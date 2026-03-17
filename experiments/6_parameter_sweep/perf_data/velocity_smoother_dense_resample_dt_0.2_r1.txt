@@ -1,0 +1,21 @@
+# started on Mon Mar 16 08:05:50 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_velocity_smoother velocity_smoother_node --ros-args --params-file /tmp/sweep_velocity_smoother_dense_resample_dt_0.2_r1.yaml -r __ns:=/planning/scenario_planning -r __node:=velocity_smoother --ros-args -p use_sim_time:=true':
+
+     4.304.293.453      instructions                     #    0,71  insn per cycle              (56,62%)
+     6.027.982.246      cycles                                                                  (67,44%)
+        74.087.160      L1-dcache-load-misses            #    6,78% of all L1-dcache accesses   (67,10%)
+     1.093.233.663      L1-dcache-loads                                                         (67,38%)
+         8.272.543      LLC-load-misses                  #   32,68% of all LL-cache accesses    (68,00%)
+        25.317.249      LLC-loads                                                               (68,05%)
+       264.637.344      cache-references                                                        (44,26%)
+        57.437.880      cache-misses                     #   21,70% of all cache refs           (41,71%)
+        41.629.121      bus-cycles                                                              (43,49%)
+
+     141,906721812 seconds time elapsed
+
+       1,050156000 seconds user
+       1,002470000 seconds sys
+
+

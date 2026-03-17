@@ -1,0 +1,21 @@
+# started on Mon Mar 16 16:15:27 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_lidar_centerpoint autoware_lidar_centerpoint_node --ros-args --params-file /tmp/sweep_lidar_centerpoint_num_past_frames_1_r1.yaml -r __ns:=/perception/object_recognition/detection/centerpoint -r __node:=lidar_centerpoint --ros-args -p use_sim_time:=true':
+
+    80.399.581.644      instructions                     #    2,60  insn per cycle              (55,01%)
+    30.866.236.111      cycles                                                                  (66,11%)
+       223.027.369      L1-dcache-load-misses            #    3,21% of all L1-dcache accesses   (66,40%)
+     6.950.496.819      L1-dcache-loads                                                         (66,83%)
+        18.790.172      LLC-load-misses                  #   32,38% of all LL-cache accesses    (66,89%)
+        58.030.486      LLC-loads                                                               (66,99%)
+       619.579.969      cache-references                                                        (44,58%)
+       174.531.362      cache-misses                     #   28,17% of all cache refs           (44,36%)
+       206.115.325      bus-cycles                                                              (43,95%)
+
+     141,434220504 seconds time elapsed
+
+       7,737792000 seconds user
+       1,915211000 seconds sys
+
+

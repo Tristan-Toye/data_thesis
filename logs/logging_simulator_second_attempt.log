@@ -1,0 +1,1311 @@
+[INFO] [launch]: All log files can be found below /home/tristan-toye/.ros/log/2026-03-05-12-38-59-468258-tristantoye-OMEN-by-HP-Laptop-18706
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/pointcloud_container/glog_component' in container '/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_mission_planning_route' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/component_state_monitor/component' in container '/system/component_state_monitor/container'
+[INFO] [component_container_mt-1]: process started with pid [18780]
+[INFO] [robot_state_publisher-2]: process started with pid [18782]
+[INFO] [autoware_duplicated_node_checker_node-3]: process started with pid [18784]
+[INFO] [processing_time_checker_node-4]: process started with pid [18786]
+[INFO] [autoware_pipeline_latency_monitor_node-5]: process started with pid [18788]
+[INFO] [service_log_checker_node-6]: process started with pid [18790]
+[INFO] [component_container-7]: process started with pid [18792]
+[INFO] [component_container-8]: process started with pid [18794]
+[INFO] [component_container-9]: process started with pid [18796]
+[INFO] [aggregator_node-10]: process started with pid [18798]
+[INFO] [converter_node-11]: process started with pid [18800]
+[INFO] [autoware_hazard_status_converter_node-12]: process started with pid [18802]
+[INFO] [autoware_mrm_handler_node-13]: process started with pid [18804]
+[INFO] [logging_node-14]: process started with pid [18806]
+[INFO] [component_container_mt-15]: process started with pid [18808]
+[INFO] [map_hash_generator-16]: process started with pid [18810]
+[INFO] [autoware_map_projection_loader_node-17]: process started with pid [18812]
+[INFO] [component_container_mt-18]: process started with pid [18814]
+[INFO] [component_container-19]: process started with pid [18816]
+[INFO] [component_container-20]: process started with pid [18818]
+[INFO] [component_container-21]: process started with pid [18822]
+[INFO] [imu_corrector_node-22]: process started with pid [18824]
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_control_command_control_cmd' in container '/system/component_state_monitor/container'
+[INFO] [gyro_bias_estimator_node-23]: process started with pid [18826]
+[INFO] [gnss_poser-24]: process started with pid [18828]
+[INFO] [autoware_vehicle_velocity_converter_node-25]: process started with pid [18834]
+[INFO] [autoware_ndt_scan_matcher_node-26]: process started with pid [18840]
+[INFO] [autoware_gyro_odometer_node-27]: process started with pid [18849]
+[INFO] [autoware_pose_initializer_node-28]: process started with pid [18852]
+[INFO] [autoware_automatic_pose_initializer_node-29]: process started with pid [18866]
+[INFO] [autoware_ekf_localizer_node-30]: process started with pid [18884]
+[INFO] [autoware_stop_filter_node-31]: process started with pid [18896]
+[INFO] [autoware_twist2accel_node-32]: process started with pid [18902]
+[INFO] [autoware_pose_instability_detector_node-33]: process started with pid [18911]
+[INFO] [autoware_localization_error_monitor_node-34]: process started with pid [18936]
+[INFO] [shape_estimation_node-35]: process started with pid [18947]
+[INFO] [detected_object_feature_remover_node-36]: process started with pid [18951]
+[INFO] [detection_by_tracker_node-37]: process started with pid [18955]
+[INFO] [obstacle_pointcloud_based_validator_node-38]: process started with pid [18979]
+[INFO] [multi_object_tracker_node-39]: process started with pid [18981]
+[INFO] [map_based_prediction-40]: process started with pid [18986]
+[INFO] [relay-41]: process started with pid [18995]
+[INFO] [relay-42]: process started with pid [19004]
+[INFO] [traffic_light_map_based_detector_node-43]: process started with pid [19006]
+[INFO] [traffic_light_map_based_detector_node-44]: process started with pid [19019]
+[INFO] [component_container_mt-45]: process started with pid [19040]
+[INFO] [component_container_mt-46]: process started with pid [19058]
+[INFO] [traffic_light_occlusion_predictor_node-47]: process started with pid [19076]
+[INFO] [traffic_light_occlusion_predictor_node-48]: process started with pid [19088]
+[INFO] [traffic_light_multi_camera_fusion_node-49]: process started with pid [19095]
+[INFO] [traffic_light_arbiter_node-50]: process started with pid [19099]
+[INFO] [crosswalk_traffic_light_estimator_node-51]: process started with pid [19105]
+[INFO] [traffic_light_map_visualizer_node-52]: process started with pid [19107]
+[INFO] [autoware_perception_analytics_publisher_node-53]: process started with pid [19123]
+[INFO] [autoware_manual_lane_change_handler_node-54]: process started with pid [19137]
+[INFO] [component_container_mt-55]: process started with pid [19159]
+[INFO] [goal_pose_visualizer-56]: process started with pid [19179]
+[INFO] [autoware_scenario_selector_node-57]: process started with pid [19195]
+[INFO] [external_velocity_limit_selector-58]: process started with pid [19198]
+[INFO] [component_container-59]: process started with pid [19209]
+[INFO] [autoware_hazard_lights_selector_node-60]: process started with pid [19214]
+[INFO] [component_container_mt-61]: process started with pid [19224]
+[INFO] [component_container_mt-62]: process started with pid [19241]
+[INFO] [component_container_mt-63]: process started with pid [19248]
+[INFO] [component_container_mt-64]: process started with pid [19256]
+[INFO] [planning_evaluator-65]: process started with pid [19260]
+[INFO] [autoware_remaining_distance_time_calculator_node-66]: process started with pid [19274]
+[INFO] [relay-67]: process started with pid [19295]
+[INFO] [component_container_mt-68]: process started with pid [19312]
+[INFO] [component_container_mt-69]: process started with pid [19329]
+[INFO] [control_evaluator-70]: process started with pid [19340]
+[INFO] [component_container_mt-71]: process started with pid [19345]
+[INFO] [initial_pose_adaptor_node-72]: process started with pid [19364]
+[INFO] [routing_adaptor_node-73]: process started with pid [19377]
+[INFO] [rviz2-74]: process started with pid [19379]
+[autoware_map_projection_loader_node-17] Load /home/tristan-toye/autoware_map/sample-map-rosbag/map_projector_info.yaml
+[component_container_mt-1] [INFO] [1772710788.536546126] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-1] [INFO] [1772710788.582764782] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-1] [INFO] [1772710788.582808623] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[robot_state_publisher-2] [INFO] [1772710788.704394180] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1772710788.705533599] [robot_state_publisher]: got segment camera0/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705553785] [robot_state_publisher]: got segment camera0/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705565955] [robot_state_publisher]: got segment camera1/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705576559] [robot_state_publisher]: got segment camera1/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705586897] [robot_state_publisher]: got segment camera2/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705597070] [robot_state_publisher]: got segment camera2/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705607563] [robot_state_publisher]: got segment camera3/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705618598] [robot_state_publisher]: got segment camera3/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705629170] [robot_state_publisher]: got segment camera4/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705639335] [robot_state_publisher]: got segment camera4/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705650074] [robot_state_publisher]: got segment camera5/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705660688] [robot_state_publisher]: got segment camera5/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705671289] [robot_state_publisher]: got segment gnss_link
+[robot_state_publisher-2] [INFO] [1772710788.705681564] [robot_state_publisher]: got segment sensor_kit_base_link
+[robot_state_publisher-2] [INFO] [1772710788.705692162] [robot_state_publisher]: got segment tamagawa/imu_link
+[robot_state_publisher-2] [INFO] [1772710788.705703142] [robot_state_publisher]: got segment traffic_light_left_camera/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705713800] [robot_state_publisher]: got segment traffic_light_left_camera/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705724234] [robot_state_publisher]: got segment traffic_light_right_camera/camera_link
+[robot_state_publisher-2] [INFO] [1772710788.705734898] [robot_state_publisher]: got segment traffic_light_right_camera/camera_optical_link
+[robot_state_publisher-2] [INFO] [1772710788.705745088] [robot_state_publisher]: got segment velodyne_left
+[robot_state_publisher-2] [INFO] [1772710788.705755531] [robot_state_publisher]: got segment velodyne_left_base_link
+[robot_state_publisher-2] [INFO] [1772710788.705766107] [robot_state_publisher]: got segment velodyne_rear
+[robot_state_publisher-2] [INFO] [1772710788.705776051] [robot_state_publisher]: got segment velodyne_rear_base_link
+[robot_state_publisher-2] [INFO] [1772710788.705787290] [robot_state_publisher]: got segment velodyne_right
+[robot_state_publisher-2] [INFO] [1772710788.705797700] [robot_state_publisher]: got segment velodyne_right_base_link
+[robot_state_publisher-2] [INFO] [1772710788.705808489] [robot_state_publisher]: got segment velodyne_top
+[robot_state_publisher-2] [INFO] [1772710788.705819060] [robot_state_publisher]: got segment velodyne_top_base_link
+[autoware_pipeline_latency_monitor_node-5] [INFO] [1772710789.075675080] [system.pipeline_latency_monitor]: PipelineLatencyMonitorNode initialized
+[component_container-7] [INFO] [1772710788.856759795] [system.component_state_monitor.container]: Load Library: /home/tristan-toye/autoware/install/autoware_topic_state_monitor/lib/libautoware_topic_state_monitor.so
+[component_container-7] [INFO] [1772710788.912029979] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710788.912084199] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710789.182481806] [system.component_state_monitor.container]: Load Library: /home/tristan-toye/autoware/install/autoware_component_state_monitor/lib/libautoware_component_state_monitor.so
+[component_container-7] [INFO] [1772710789.199528724] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::component_state_monitor::StateMonitor>
+[component_container-7] [INFO] [1772710789.199581925] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::component_state_monitor::StateMonitor>
+[component_container-7] [INFO] [1772710789.447217393] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710789.451047131] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[imu_corrector_node-22] [INFO] [1772710789.120959994] [sensing.imu.imu_corrector]: correct_for_static_bias: true
+[imu_corrector_node-22] [INFO] [1772710789.121066581] [sensing.imu.imu_corrector]: correct_for_dynamic_bias: false
+[imu_corrector_node-22] [INFO] [1772710789.121093557] [sensing.imu.imu_corrector]: correct_for_scale: false
+[component_container-7] [INFO] [1772710789.809571814] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710789.809617324] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710790.212636648] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710790.212691537] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_trajectory_follower_control_cmd' in container '/system/component_state_monitor/container'
+[multi_object_tracker_node-39] [INFO] [1772710790.673478687] [perception.object_recognition.tracking.multi_object_tracker]: InputManager::init Initializing centerpoint input stream from /perception/object_recognition/detection/centerpoint/validation/objects
+[multi_object_tracker_node-39] [INFO] [1772710790.718906099] [perception.object_recognition.tracking.multi_object_tracker]: InputManager::init Initializing detection_by_tracker input stream from /perception/object_recognition/detection/detection_by_tracker/objects
+[multi_object_tracker_node-39] [INFO] [1772710790.743338160] [perception.object_recognition.tracking.multi_object_tracker]: InputManager::init Initializing camera_streampetr input stream from /perception/object_recognition/detection/camera_only/objects
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_pointcloud_map' in container '/system/component_state_monitor/container'
+[component_container-8] [INFO] [1772710790.852378006] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Load Library: /home/tristan-toye/autoware/install/autoware_mrm_comfortable_stop_operator/lib/libautoware_mrm_comfortable_stop_operator_component.so
+[component_container-7] [INFO] [1772710790.860146719] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710790.860202580] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-8] [INFO] [1772710790.861954725] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::mrm_comfortable_stop_operator::MrmComfortableStopOperator>
+[component_container-8] [INFO] [1772710790.862008780] [system.mrm_comfortable_stop_operator.mrm_comfortable_stop_operator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::mrm_comfortable_stop_operator::MrmComfortableStopOperator>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/mrm_comfortable_stop_operator' in container '/system/mrm_comfortable_stop_operator/mrm_comfortable_stop_operator_container'
+[component_container-9] [INFO] [1772710790.927281301] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Load Library: /home/tristan-toye/autoware/install/autoware_mrm_emergency_stop_operator/lib/libautoware_mrm_emergency_stop_operator_component.so
+[component_container-9] [INFO] [1772710790.940237337] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::mrm_emergency_stop_operator::MrmEmergencyStopOperator>
+[component_container-9] [INFO] [1772710790.940292339] [system.mrm_emergency_stop_operator.mrm_emergency_stop_operator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::mrm_emergency_stop_operator::MrmEmergencyStopOperator>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/mrm_emergency_stop_operator' in container '/system/mrm_emergency_stop_operator/mrm_emergency_stop_operator_container'
+[component_container_mt-15] [INFO] [1772710791.011961001] [map.map_container]: Load Library: /home/tristan-toye/autoware/install/autoware_map_loader/lib/libpointcloud_map_loader_node.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_pose_twist_fusion_filter_pose' in container '/system/component_state_monitor/container'
+[component_container-7] [INFO] [1772710791.208938031] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.208995577] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container_mt-18] [INFO] [1772710791.305349422] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-15] [INFO] [1772710791.381348649] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::map_loader::PointCloudMapLoaderNode>
+[component_container_mt-15] [INFO] [1772710791.381411170] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::map_loader::PointCloudMapLoaderNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_initialpose3d' in container '/system/component_state_monitor/container'
+[component_container-7] [INFO] [1772710791.429430668] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.429489864] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-19] [INFO] [1772710791.457820790] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container-19] [INFO] [1772710791.465176204] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-19] [INFO] [1772710791.465233287] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-7] [INFO] [1772710791.503199927] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.503246783] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.533121069] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.533171448] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container_mt-18] [INFO] [1772710791.546763705] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-18] [INFO] [1772710791.546811380] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-7] [INFO] [1772710791.581720846] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.581811884] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.603826804] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710791.603881535] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_object_recognition_objects' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_vector_map' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_obstacle_segmentation_pointcloud' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_traffic_light_recognition_traffic_signals' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/glog_component' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/glog_component' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710791.711548225] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container-21] [INFO] [1772710791.728049648] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/pointcloud_map_loader' in container '/map/map_container'
+[component_container-21] [INFO] [1772710791.728121624] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-20] [INFO] [1772710791.785796925] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-1] [INFO] [1772710791.798538242] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[component_container-20] [INFO] [1772710791.948665709] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-20] [INFO] [1772710791.948723856] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_vehicle_status_velocity_status' in container '/system/component_state_monitor/container'
+[component_container-7] [INFO] [1772710792.002326958] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710792.002419277] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/glog_component' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/glog_component' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[component_container-7] [INFO] [1772710792.569929282] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710792.570002993] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container_mt-45] [INFO] [1772710792.739158904] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_classifier/lib/libautoware_traffic_light_classifier.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_system_emergency_control_cmd' in container '/system/component_state_monitor/container'
+[component_container-7] [INFO] [1772710792.747076172] [system.component_state_monitor.container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[component_container-7] [INFO] [1772710792.747275760] [system.component_state_monitor.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::topic_state_monitor::TopicStateMonitorNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_vehicle_status_steering_status' in container '/system/component_state_monitor/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/system/topic_state_monitor_transform_map_to_base_link' in container '/system/component_state_monitor/container'
+[component_container_mt-46] [INFO] [1772710793.179885416] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_classifier/lib/libautoware_traffic_light_classifier.so
+[shape_estimation_node-35] [INFO] [1772710794.369101497] [perception.object_recognition.detection.clustering.shape_estimation]: using boost shape estimation : 0
+[component_container_mt-45] [INFO] [1772710794.707878593] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-45] [INFO] [1772710794.707968130] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[rviz2-74] [INFO] [1772710795.051922147] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-74] [INFO] [1772710795.052071659] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-74] QFont::setPointSize: Point size <= 0 (0), must be greater than 0
+[component_container_mt-45] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 35, GPU 52 (MiB)
+[rviz2-74] [INFO] [1772710795.106100223] [rviz2]: Stereo is NOT SUPPORTED
+[component_container_mt-1] [INFO] [1772710795.278325681] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.278381096] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710795.278393312] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.278401616] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-46] [INFO] [1772710795.278975516] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-46] [INFO] [1772710795.279023181] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/localization/util/crop_box_filter_measurement_range' in container '/pointcloud_container'
+[component_container_mt-1] [INFO] [1772710795.408883783] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.408930658] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710795.408944484] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.408956327] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/obstacle_segmentation/crop_box_filter' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710795.508560911] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508621652] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710795.508643478] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508661916] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-1] [INFO] [1772710795.508679160] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508695925] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508712853] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508730322] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container_mt-1] [INFO] [1772710795.508747639] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710795.508765070] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710795.508783959] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710795.571678777] [sensing.lidar.concatenate_data]: Utilize advanced matching strategy
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/concatenate_data' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710795.598997808] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_probabilistic_occupancy_grid_map/lib/libpointcloud_based_occupancy_grid_map.so
+[component_container_mt-55] [INFO] [1772710795.600812900] [planning.mission_planning.mission_planner_container]: Load Library: /home/tristan-toye/autoware/install/autoware_mission_planner_universe/lib/libautoware_mission_planner_universe_component.so
+[component_container_mt-46] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 35, GPU 96 (MiB)
+[component_container_mt-1] [INFO] [1772710795.628336861] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::occupancy_grid_map::PointcloudBasedOccupancyGridMapNode>
+[component_container_mt-1] [INFO] [1772710795.628441282] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::occupancy_grid_map::PointcloudBasedOccupancyGridMapNode>
+[component_container_mt-55] [INFO] [1772710795.709429922] [planning.mission_planning.mission_planner_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::mission_planner_universe::MissionPlanner>
+[component_container_mt-55] [INFO] [1772710795.709481178] [planning.mission_planning.mission_planner_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::mission_planner_universe::MissionPlanner>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/occupancy_grid_map/occupancy_grid_map_node' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710795.884923743] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_lidar_centerpoint/lib/libautoware_lidar_centerpoint_component.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/mission_planning/mission_planner' in container '/planning/mission_planning/mission_planner_container'
+[component_container-59] [INFO] [1772710795.894514948] [planning.scenario_planning.velocity_smoother_container]: Load Library: /home/tristan-toye/autoware/install/autoware_velocity_smoother/lib/libautoware_velocity_smoother_node.so
+[component_container_mt-61] [INFO] [1772710795.899645956] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-61] [INFO] [1772710795.907009434] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-61] [INFO] [1772710795.907071739] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-59] [INFO] [1772710795.948075761] [planning.scenario_planning.velocity_smoother_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::velocity_smoother::VelocitySmootherNode>
+[component_container-59] [INFO] [1772710795.948126844] [planning.scenario_planning.velocity_smoother_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::velocity_smoother::VelocitySmootherNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/behavior_planning/glog_component' in container '/planning/scenario_planning/lane_driving/behavior_planning/behavior_planning_container'
+[component_container_mt-1] [INFO] [1772710796.052919975] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::lidar_centerpoint::LidarCenterPointNode>
+[component_container_mt-1] [INFO] [1772710796.052981235] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::lidar_centerpoint::LidarCenterPointNode>
+[component_container_mt-61] [INFO] [1772710796.074242222] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_behavior_path_planner/lib/libautoware_behavior_path_planner_lib.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/velocity_smoother' in container '/planning/scenario_planning/velocity_smoother_container'
+[component_container_mt-62] [INFO] [1772710796.217896667] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-62] [INFO] [1772710796.222511316] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-62] [INFO] [1772710796.222556504] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-1] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 69, GPU 456 (MiB)
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/glog_component' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[component_container_mt-62] [INFO] [1772710796.301873647] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_path_smoother/lib/libautoware_path_smoother.so
+[component_container_mt-62] [INFO] [1772710796.320786159] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::path_smoother::ElasticBandSmoother>
+[component_container_mt-62] [INFO] [1772710796.320838600] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::path_smoother::ElasticBandSmoother>
+[component_container_mt-61] [INFO] [1772710796.346814954] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::behavior_path_planner::BehaviorPathPlannerNode>
+[component_container_mt-61] [INFO] [1772710796.346874386] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::behavior_path_planner::BehaviorPathPlannerNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/elastic_band_smoother' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[component_container_mt-62] [INFO] [1772710796.586256900] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_path_optimizer/lib/libautoware_path_optimizer.so
+[component_container_mt-62] [INFO] [1772710796.631098076] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::path_optimizer::PathOptimizer>
+[component_container_mt-62] [INFO] [1772710796.643743474] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::path_optimizer::PathOptimizer>
+[component_container_mt-1] [WARN] [1772710796.726091423] [sensing.lidar.concatenate_data]: New subscription discovered on topic '/sensing/lidar/concatenated/pointcloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/path_optimizer' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[component_container_mt-62] [INFO] [1772710796.828177507] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_motion_velocity_planner/lib/libautoware_motion_velocity_planner_lib.so
+[component_container_mt-62] [INFO] [1772710797.304686132] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::motion_velocity_planner::MotionVelocityPlannerNode>
+[component_container_mt-62] [INFO] [1772710797.304742954] [planning.scenario_planning.lane_driving.motion_planning.motion_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::motion_velocity_planner::MotionVelocityPlannerNode>
+[component_container_mt-61] added a slot with 1 modules
+[component_container_mt-61] external_request_lane_change_left registered in slot_configuration is not registered, skipping
+[component_container_mt-61] external_request_lane_change_right registered in slot_configuration is not registered, skipping
+[component_container_mt-61] added a slot with 6 modules
+[component_container_mt-61] added a slot with 1 modules
+[component_container_mt-61] dynamic_obstacle_avoidance registered in slot_configuration is not registered, skipping
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner' in container '/planning/scenario_planning/lane_driving/behavior_planning/behavior_planning_container'
+[component_container_mt-63] [INFO] [1772710797.461794484] [planning.scenario_planning.parking.parking_container]: Load Library: /home/tristan-toye/autoware/install/autoware_costmap_generator/lib/libcostmap_generator_node.so
+[rviz2-74] [WARN] [1772710797.741665813] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[component_container_mt-63] [INFO] [1772710798.307165569] [planning.scenario_planning.parking.parking_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::costmap_generator::CostmapGenerator>
+[component_container_mt-63] [INFO] [1772710798.307224380] [planning.scenario_planning.parking.parking_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::costmap_generator::CostmapGenerator>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/parking/costmap_generator' in container '/planning/scenario_planning/parking/parking_container'
+[component_container_mt-64] [INFO] [1772710798.446850318] [planning.planning_validator_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-64] [INFO] [1772710798.452295401] [planning.planning_validator_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-64] [INFO] [1772710798.452341414] [planning.planning_validator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/glog_component' in container '/planning/planning_validator_container'
+[component_container_mt-68] [INFO] [1772710798.542588104] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-68] [INFO] [1772710798.558948990] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-68] [INFO] [1772710798.558998458] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/glog_control_container_component' in container '/control/control_container'
+[component_container_mt-68] [INFO] [1772710798.789283142] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_trajectory_follower_node/lib/libcontroller_node.so
+[rviz2-74] [WARN] [1772710798.847772592] [PlanningFactorRvizPlugin]: Waiting for vehicle_info service...
+[component_container_mt-68] [INFO] [1772710798.862066572] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::motion::control::trajectory_follower_node::Controller>
+[component_container_mt-68] [INFO] [1772710798.862129805] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::motion::control::trajectory_follower_node::Controller>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/motion_planning/motion_velocity_planner' in container '/planning/scenario_planning/lane_driving/motion_planning/motion_planning_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/trajectory_follower/controller_node_exe' in container '/control/control_container'
+[component_container_mt-68] [INFO] [1772710798.995427251] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_external_cmd_selector/lib/libautoware_external_cmd_selector_node.so
+[component_container_mt-68] [INFO] [1772710799.005460854] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::external_cmd_selector::ExternalCmdSelector>
+[component_container_mt-68] [INFO] [1772710799.005520308] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::external_cmd_selector::ExternalCmdSelector>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/external_cmd_selector' in container '/control/control_container'
+[component_container_mt-68] [INFO] [1772710799.117712011] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_external_cmd_converter/lib/libautoware_external_cmd_converter.so
+[component_container_mt-68] [INFO] [1772710799.128032392] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::external_cmd_converter::ExternalCmdConverterNode>
+[component_container_mt-68] [INFO] [1772710799.128074635] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::external_cmd_converter::ExternalCmdConverterNode>
+[component_container_mt-69] [INFO] [1772710799.133443514] [control.control_check_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container_mt-69] [INFO] [1772710799.153297970] [control.control_check_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-69] [INFO] [1772710799.153350824] [control.control_check_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/external_cmd_converter' in container '/control/control_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/glog_control_check_container_component' in container '/control/control_check_container'
+[component_container_mt-69] [INFO] [1772710799.267171467] [control.control_check_container]: Load Library: /home/tristan-toye/autoware/install/autoware_lane_departure_checker/lib/libautoware_lane_departure_checker.so
+[component_container_mt-69] [INFO] [1772710799.310582808] [control.control_check_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::lane_departure_checker::LaneDepartureCheckerNode>
+[component_container_mt-69] [INFO] [1772710799.310638019] [control.control_check_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::lane_departure_checker::LaneDepartureCheckerNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/trajectory_follower/lane_departure_checker_node' in container '/control/control_check_container'
+[component_container_mt-69] [INFO] [1772710799.425801510] [control.control_check_container]: Load Library: /home/tristan-toye/autoware/install/autoware_control_validator/lib/libautoware_control_validator_component.so
+[component_container_mt-69] [INFO] [1772710799.435850735] [control.control_check_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::control_validator::ControlValidator>
+[component_container_mt-69] [INFO] [1772710799.435911800] [control.control_check_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::control_validator::ControlValidator>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/control_validator' in container '/control/control_check_container'
+[component_container_mt-69] [INFO] [1772710799.582665229] [control.control_check_container]: Load Library: /home/tristan-toye/autoware/install/autoware_autonomous_emergency_braking/lib/libautoware_autonomous_emergency_braking_node.so
+[component_container_mt-69] [INFO] [1772710799.703809602] [control.control_check_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::motion::control::autonomous_emergency_braking::AEB>
+[component_container_mt-69] [INFO] [1772710799.703862236] [control.control_check_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::motion::control::autonomous_emergency_braking::AEB>
+[component_container_mt-69] [INFO] [1772710799.818815190] [control.control_check_container]: Load Library: /home/tristan-toye/autoware/install/autoware_collision_detector/lib/libautoware_collision_detector.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/autonomous_emergency_braking' in container '/control/control_check_container'
+[component_container_mt-69] [INFO] [1772710799.822334494] [control.control_check_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::collision_detector::CollisionDetectorNode>
+[component_container_mt-69] [INFO] [1772710799.822378772] [control.control_check_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::collision_detector::CollisionDetectorNode>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/collision_detector' in container '/control/control_check_container'
+[component_container-19] [INFO] [1772710799.983551786] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/nebula_velodyne/lib/libvelodyne_ros_wrapper.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/interface' in container '/adapi/container'
+[component_container-19] [INFO] [1772710800.042750260] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container-19] [INFO] [1772710800.042816955] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container-21] [INFO] [1772710800.047139981] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/nebula_velodyne/lib/libvelodyne_ros_wrapper.so
+[component_container-21] [INFO] [1772710800.091225356] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container-21] [INFO] [1772710800.091319757] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container-21] [INFO] [1772710800.163034148] [sensing.lidar.rear.velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[component_container-21] Sensor Model: VLP16
+[component_container-21] Frame ID: velodyne_rear
+[component_container-21] Host IP: 192.168.1.10
+[component_container-21] Sensor IP: 192.168.1.204
+[component_container-21] Data Port: 2371
+[component_container-21] Return Mode: SingleStrongest
+[component_container-21] MTU: 1500
+[component_container-21] Use Sensor Time: 0
+[component_container-21] GNSS Port: 2380
+[component_container-21] Scan Phase: 180
+[component_container-21] Rotation Speed: 600
+[component_container-21] FoV Start: 300
+[component_container-21] FoV End: 60
+[rviz2-74] [INFO] [1772710800.164767717] [rviz2]: Stereo is NOT SUPPORTED
+[component_container-21] [INFO] [1772710800.182233473] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/tristan-toye/autoware/install/nebula_velodyne_decoders/share/nebula_velodyne_decoders/calibration/VLP16.yaml
+[component_container-21] [INFO] [1772710800.182264483] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[component_container-21] [INFO] [1772710800.201985763] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[component_container-21] [INFO] [1772710800.211660124] [sensing.lidar.rear.velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /sensing/lidar/rear/velodyne_packets
+[component_container-19] [INFO] [1772710800.212566281] [sensing.lidar.left.velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[component_container-19] Sensor Model: VLP16
+[component_container-19] Frame ID: velodyne_left
+[component_container-19] Host IP: 192.168.1.10
+[component_container-19] Sensor IP: 192.168.1.202
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/velodyne_ros_wrapper_node' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container-19] Data Port: 2369
+[component_container-19] Return Mode: SingleStrongest
+[component_container-19] MTU: 1500
+[component_container-19] Use Sensor Time: 0
+[component_container-19] GNSS Port: 2380
+[component_container-19] Scan Phase: 180
+[component_container-19] Rotation Speed: 600
+[component_container-19] FoV Start: 300
+[component_container-19] FoV End: 60
+[component_container-19] [INFO] [1772710800.231003206] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/tristan-toye/autoware/install/nebula_velodyne_decoders/share/nebula_velodyne_decoders/calibration/VLP16.yaml
+[component_container-19] [INFO] [1772710800.231042383] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[component_container_mt-15] [INFO] [1772710800.245291973] [map.map_container]: Load Library: /home/tristan-toye/autoware/install/autoware_map_loader/lib/liblanelet2_map_loader_node.so
+[component_container-19] [INFO] [1772710800.248966363] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[component_container-19] [INFO] [1772710800.254582770] [sensing.lidar.left.velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /sensing/lidar/left/velodyne_packets
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/velodyne_ros_wrapper_node' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[component_container_mt-18] [INFO] [1772710800.263321470] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/nebula_velodyne/lib/libvelodyne_ros_wrapper.so
+[component_container_mt-18] [INFO] [1772710800.277588358] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container_mt-18] [INFO] [1772710800.277650547] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container_mt-15] [INFO] [1772710800.291813171] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::map_loader::Lanelet2MapLoaderNode>
+[component_container_mt-15] [INFO] [1772710800.292046436] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::map_loader::Lanelet2MapLoaderNode>
+[component_container_mt-18] [INFO] [1772710800.363508833] [sensing.lidar.top.velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[component_container_mt-18] Sensor Model: VLS128
+[component_container_mt-18] Frame ID: velodyne_top
+[component_container_mt-18] Host IP: 192.168.1.10
+[component_container_mt-18] Sensor IP: 192.168.1.201
+[component_container_mt-18] Data Port: 2368
+[component_container_mt-18] Return Mode: SingleStrongest
+[component_container_mt-18] MTU: 1500
+[component_container_mt-18] Use Sensor Time: 0
+[component_container_mt-18] GNSS Port: 2380
+[component_container_mt-18] Scan Phase: 300
+[component_container_mt-18] Rotation Speed: 600
+[component_container_mt-18] FoV Start: 0
+[component_container_mt-18] FoV End: 360
+[component_container_mt-18] [INFO] [1772710800.416784578] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/tristan-toye/autoware/install/nebula_velodyne_decoders/share/nebula_velodyne_decoders/calibration/VLS128.yaml
+[component_container_mt-18] [INFO] [1772710800.416820668] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/lanelet2_map_loader' in container '/map/map_container'
+[component_container_mt-18] [INFO] [1772710800.432318782] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[component_container_mt-18] [INFO] [1772710800.441997464] [sensing.lidar.top.velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /sensing/lidar/top/velodyne_packets
+[component_container-20] [INFO] [1772710800.443207877] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/nebula_velodyne/lib/libvelodyne_ros_wrapper.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/velodyne_ros_wrapper_node' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[component_container_mt-15] [WARN] [1772710800.452033879] [map.lanelet2_map_loader]: /home/tristan-toye/autoware_map/sample-map-rosbag/lanelet2_map.osm has no format_version(null) or non semver-style format_version(null) information
+[component_container_mt-15] [INFO] [1772710800.452119760] [map.lanelet2_map_loader]: Loaded map format_version: null
+[component_container_mt-15] [INFO] [1772710800.462198766] [map.lanelet2_map_loader]: Succeeded to load lanelet2_map. Map is published.
+[component_container-20] [INFO] [1772710800.466619360] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container-20] [INFO] [1772710800.466674449] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<VelodyneRosWrapper>
+[component_container_mt-55] [WARN] [1772710800.516956213] [route_handler]: setMap() for invalid version map: 
+[component_container-20] [INFO] [1772710800.557311492] [sensing.lidar.right.velodyne_ros_wrapper_node]: Sensor Configuration: Velodyne Sensor Configuration:
+[component_container-20] Sensor Model: VLP16
+[component_container-20] Frame ID: velodyne_right
+[component_container-20] Host IP: 192.168.1.10
+[component_container-20] Sensor IP: 192.168.1.203
+[component_container-20] Data Port: 2370
+[component_container-20] Return Mode: SingleStrongest
+[component_container-20] MTU: 1500
+[component_container-20] Use Sensor Time: 0
+[component_container-20] GNSS Port: 2380
+[component_container-20] Scan Phase: 180
+[component_container-20] Rotation Speed: 600
+[component_container-20] FoV Start: 300
+[component_container-20] FoV End: 60
+[component_container-20] [INFO] [1772710800.568636620] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Using calibration data from /home/tristan-toye/autoware/install/nebula_velodyne_decoders/share/nebula_velodyne_decoders/calibration/VLP16.yaml
+[component_container-20] [INFO] [1772710800.568662054] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Starting Decoder
+[component_container-20] [INFO] [1772710800.584247406] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: . Wrapper=OK
+[component_container-20] [INFO] [1772710800.588315019] [sensing.lidar.right.velodyne_ros_wrapper_node]: Hardware connection disabled, listening for packets on /sensing/lidar/right/velodyne_packets
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/velodyne_ros_wrapper_node' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[autoware_manual_lane_change_handler_node-54] [WARN] [1772710800.723747322] [route_handler]: setMap() for invalid version map: 
+[autoware_scenario_selector_node-57] [WARN] [1772710800.733596868] [route_handler]: setMap() for invalid version map: 
+[component_container_mt-45] [I] [TRT] [MemUsageChange] Init builder kernel library: CPU +228, GPU +76, now: CPU 342, GPU 532 (MiB)
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-45] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_classifier/traffic_light_classifier_mobilenetv2_batch_6.onnx
+[component_container_mt-45] [I] [TRT] ONNX IR version:  0.0.8
+[component_container_mt-45] [I] [TRT] Opset version:    11
+[component_container_mt-45] [I] [TRT] Producer name:    pytorch
+[component_container_mt-45] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-45] [I] [TRT] Domain:           
+[component_container_mt-45] [I] [TRT] Model version:    0
+[component_container_mt-45] [I] [TRT] Doc string:       
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [I] [TRT] Setting optimization profile for tensor: input {min [6, 3, 224, 224], opt [6, 3, 224, 224], max [6, 3, 224, 224]}
+[component_container_mt-45] [I] [TRT] Loading engine
+[component_container_mt-45] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-45] [I] [TRT] Loaded engine size: 9 MiB
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +8, now: CPU 0, GPU 8 (MiB)
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +41, now: CPU 0, GPU 49 (MiB)
+[component_container_mt-45] [I] [TRT] Network validation
+[component_container_mt-45] [I] [TRT] Engine setup completed
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera6/classification/car_traffic_light_classifier' in container '/perception/traffic_light_recognition/camera6/traffic_light_node_container'
+[component_container_mt-45] [INFO] [1772710805.102138063] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_image_transport_decompressor/lib/libautoware_image_transport_decompressor.so
+[component_container_mt-55] [INFO] [1772710805.105334232] [planning.mission_planning.mission_planner_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::mission_planner_universe::MissionPlanner>
+[component_container_mt-55] [INFO] [1772710805.105393670] [planning.mission_planning.mission_planner_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::mission_planner_universe::RouteSelector>
+[component_container_mt-55] [INFO] [1772710805.105413330] [planning.mission_planning.mission_planner_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::mission_planner_universe::RouteSelector>
+[component_container_mt-45] [INFO] [1772710805.112299882] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::image_preprocessor::ImageTransportDecompressor>
+[component_container_mt-45] [INFO] [1772710805.112355015] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::image_preprocessor::ImageTransportDecompressor>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera6/traffic_light_image_decompressor' in container '/perception/traffic_light_recognition/camera6/traffic_light_node_container'
+[component_container_mt-45] [INFO] [1772710805.182144178] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_fine_detector/lib/libautoware_traffic_light_fine_detector.so
+[component_container_mt-45] [INFO] [1772710805.200244541] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightFineDetectorNode>
+[component_container_mt-45] [INFO] [1772710805.200313018] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightFineDetectorNode>
+[component_container_mt-61] [INFO] [1772710805.223741447] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Load Library: /home/tristan-toye/autoware/install/autoware_behavior_velocity_planner/lib/libautoware_behavior_velocity_planner_lib.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/mission_planning/route_selector' in container '/planning/mission_planning/mission_planner_container'
+[component_container-59] [INFO] [1772710805.262085519] [planning.scenario_planning.velocity_smoother_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container-59] [INFO] [1772710805.269279980] [planning.scenario_planning.velocity_smoother_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container-59] [INFO] [1772710805.269331978] [planning.scenario_planning.velocity_smoother_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-45] failed to open 
+[component_container_mt-45] [I] [TRT] The logger passed into createInferRuntime differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-45] [I] [TRT] The logger passed into createInferBuilder differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-45] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 354, GPU 614 (MiB)
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/glog_component' in container '/planning/scenario_planning/velocity_smoother_container'
+[component_container_mt-63] [INFO] [1772710805.364479112] [planning.scenario_planning.parking.parking_container]: Load Library: /home/tristan-toye/autoware/install/autoware_freespace_planner/lib/libfreespace_planner_node.so
+[component_container_mt-61] [INFO] [1772710805.369745640] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::behavior_velocity_planner::BehaviorVelocityPlannerNode>
+[component_container_mt-61] [INFO] [1772710805.369797868] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::behavior_velocity_planner::experimental::BehaviorVelocityPlannerNode>
+[component_container_mt-61] [INFO] [1772710805.369807903] [planning.scenario_planning.lane_driving.behavior_planning.behavior_planning_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::behavior_velocity_planner::experimental::BehaviorVelocityPlannerNode>
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-45] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_fine_detector/tlr_car_ped_yolox_s_batch_6.onnx
+[component_container_mt-45] [I] [TRT] ONNX IR version:  0.0.6
+[component_container_mt-45] [I] [TRT] Opset version:    11
+[component_container_mt-45] [I] [TRT] Producer name:    pytorch
+[component_container_mt-45] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-45] [I] [TRT] Domain:           
+[component_container_mt-45] [I] [TRT] Model version:    0
+[component_container_mt-45] [I] [TRT] Doc string:       
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-63] [INFO] [1772710805.423232412] [planning.scenario_planning.parking.parking_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::freespace_planner::FreespacePlannerNode>
+[component_container_mt-63] [INFO] [1772710805.423434111] [planning.scenario_planning.parking.parking_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::freespace_planner::FreespacePlannerNode>
+[component_container_mt-45] [W] [TRT] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[component_container_mt-45] [W] [TRT] onnx2trt_utils.cpp:400: One or more weights outside the range of INT32 was clamped
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [I] [TRT] Setting optimization profile for tensor: images {min [6, 3, 416, 416], opt [6, 3, 416, 416], max [6, 3, 416, 416]}
+[component_container_mt-45] [I] [TRT] Loading engine
+[component_container_mt-63] [INFO] [1772710805.582253624] [planning.scenario_planning.parking.freespace_planner]: initialize planning algorithm: astar
+[component_container_mt-45] [I] [TRT] Plan was created with TensorRT 8.6.1
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/parking/freespace_planner' in container '/planning/scenario_planning/parking/parking_container'
+[component_container_mt-64] [INFO] [1772710805.702181971] [planning.planning_validator_container]: Load Library: /home/tristan-toye/autoware/install/autoware_planning_validator/lib/libautoware_planning_validator_component.so
+[component_container_mt-45] [I] [TRT] Loaded engine size: 45 MiB
+[component_container_mt-64] [INFO] [1772710805.810097559] [planning.planning_validator_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::planning_validator::PlanningValidatorNode>
+[component_container_mt-64] [INFO] [1772710805.810174772] [planning.planning_validator_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::planning_validator::PlanningValidatorNode>
+[component_container_mt-46] [I] [TRT] [MemUsageChange] Init builder kernel library: CPU +227, GPU +192, now: CPU 342, GPU 678 (MiB)
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_classifier/traffic_light_classifier_mobilenetv2_batch_6.onnx
+[component_container_mt-46] [I] [TRT] ONNX IR version:  0.0.8
+[component_container_mt-46] [I] [TRT] Opset version:    11
+[component_container_mt-46] [I] [TRT] Producer name:    pytorch
+[component_container_mt-46] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-46] [I] [TRT] Domain:           
+[component_container_mt-46] [I] [TRT] Model version:    0
+[component_container_mt-46] [I] [TRT] Doc string:       
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [I] [TRT] Setting optimization profile for tensor: input {min [6, 3, 224, 224], opt [6, 3, 224, 224], max [6, 3, 224, 224]}
+[component_container_mt-46] [I] [TRT] Loading engine
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +45, now: CPU 0, GPU 94 (MiB)
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +82, now: CPU 0, GPU 176 (MiB)
+[component_container_mt-46] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-45] [I] [TRT] Network validation
+[component_container_mt-45] [I] [TRT] Engine setup completed
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera6/detection/traffic_light_fine_detector' in container '/perception/traffic_light_recognition/camera6/traffic_light_node_container'
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera7/classification/car_traffic_light_classifier' in container '/perception/traffic_light_recognition/camera7/traffic_light_node_container'
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-45] [INFO] [1772710805.911248489] [perception.traffic_light_recognition.camera6.detection.traffic_light_fine_detector]: GPU 0 is selected for the inference!
+[component_container_mt-46] [I] [TRT] Loaded engine size: 9 MiB
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +8, now: CPU 0, GPU 8 (MiB)
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +41, now: CPU 0, GPU 49 (MiB)
+[component_container_mt-46] [I] [TRT] Network validation
+[component_container_mt-46] [I] [TRT] Engine setup completed
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [INFO] [1772710805.945126009] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_image_transport_decompressor/lib/libautoware_image_transport_decompressor.so
+[component_container_mt-46] [INFO] [1772710805.951322617] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::image_preprocessor::ImageTransportDecompressor>
+[component_container_mt-46] [INFO] [1772710805.951386710] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::image_preprocessor::ImageTransportDecompressor>
+[component_container_mt-68] [INFO] [1772710805.976882642] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_shift_decider/lib/libautoware_shift_decider_node.so
+[component_container_mt-46] [INFO] [1772710805.993834123] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_fine_detector/lib/libautoware_traffic_light_fine_detector.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera7/traffic_light_image_decompressor' in container '/perception/traffic_light_recognition/camera7/traffic_light_node_container'
+[component_container-21] [INFO] [1772710806.024231709] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[component_container_mt-68] [INFO] [1772710806.026736003] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::shift_decider::ShiftDecider>
+[component_container_mt-68] [INFO] [1772710806.026794480] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::shift_decider::ShiftDecider>
+[component_container_mt-46] [INFO] [1772710806.050758889] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightFineDetectorNode>
+[component_container_mt-46] [INFO] [1772710806.051028455] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightFineDetectorNode>
+[component_container_mt-1] [I] [TRT] [MemUsageChange] Init builder kernel library: CPU +228, GPU +334, now: CPU 377, GPU 834 (MiB)
+[component_container_mt-1] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-1] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/lidar_centerpoint/pts_voxel_encoder_centerpoint_tiny.onnx
+[component_container_mt-1] [I] [TRT] ONNX IR version:  0.0.6
+[component_container_mt-1] [I] [TRT] Opset version:    11
+[component_container_mt-1] [I] [TRT] Producer name:    pytorch
+[component_container_mt-1] [I] [TRT] Producer version: 1.9
+[component_container_mt-1] [I] [TRT] Domain:           
+[component_container_mt-1] [I] [TRT] Model version:    0
+[component_container_mt-1] [I] [TRT] Doc string:       
+[component_container_mt-1] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-1] [I] [TRT] The logger passed into createInferRuntime differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-1] [I] [TRT] The logger passed into createInferBuilder differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-1] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 377, GPU 834 (MiB)
+[component_container_mt-1] [W] [TRT] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[component_container_mt-1] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-1] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/lidar_centerpoint/pts_backbone_neck_head_centerpoint_tiny.onnx
+[component_container_mt-1] [I] [TRT] ONNX IR version:  0.0.6
+[component_container_mt-1] [I] [TRT] Opset version:    11
+[component_container_mt-1] [I] [TRT] Producer name:    pytorch
+[component_container_mt-1] [I] [TRT] Producer version: 1.9
+[component_container_mt-1] [I] [TRT] Domain:           
+[component_container_mt-1] [I] [TRT] Model version:    0
+[component_container_mt-1] [I] [TRT] Doc string:       
+[component_container_mt-1] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] failed to open 
+[component_container_mt-46] [I] [TRT] The logger passed into createInferRuntime differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-46] [I] [TRT] The logger passed into createInferBuilder differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-1] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-1] [W] [TRT] Engine is not initialized. Retrieving data from network
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/autoware_shift_decider' in container '/control/control_container'
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: input_features {min [40000, 32, 9], opt [40000, 32, 9], max [40000, 32, 9]}
+[component_container_mt-1] [I] [TRT] Loading engine
+[component_container_mt-1] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-1] [I] [TRT] Loaded engine size: 0 MiB
+[component_container_mt-1] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +0, now: CPU 0, GPU 0 (MiB)
+[component_container_mt-1] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +316, now: CPU 0, GPU 316 (MiB)
+[component_container_mt-1] [I] [TRT] Network validation
+[component_container_mt-1] [I] [TRT] Engine setup completed
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: spatial_features {min [1, 32, 480, 480], opt [1, 32, 480, 480], max [1, 32, 480, 480]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: vel {min [1, 2, 240, 240], opt [1, 2, 240, 240], max [1, 2, 240, 240]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: rot {min [1, 2, 240, 240], opt [1, 2, 240, 240], max [1, 2, 240, 240]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: dim {min [1, 3, 240, 240], opt [1, 3, 240, 240], max [1, 3, 240, 240]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: height {min [1, 1, 240, 240], opt [1, 1, 240, 240], max [1, 1, 240, 240]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: reg {min [1, 2, 240, 240], opt [1, 2, 240, 240], max [1, 2, 240, 240]}
+[component_container_mt-1] [I] [TRT] Setting optimization profile for tensor: heatmap {min [1, 5, 240, 240], opt [1, 5, 240, 240], max [1, 5, 240, 240]}
+[component_container_mt-1] [I] [TRT] Loading engine
+[component_container_mt-46] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 354, GPU 1152 (MiB)
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_fine_detector/tlr_car_ped_yolox_s_batch_6.onnx
+[component_container_mt-46] [I] [TRT] ONNX IR version:  0.0.6
+[component_container_mt-46] [I] [TRT] Opset version:    11
+[component_container_mt-46] [I] [TRT] Producer name:    pytorch
+[component_container_mt-46] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-46] [I] [TRT] Domain:           
+[component_container_mt-46] [I] [TRT] Model version:    0
+[component_container_mt-46] [I] [TRT] Doc string:       
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container-19] [INFO] [1772710806.330771575] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[component_container_mt-46] [W] [TRT] onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
+[component_container_mt-46] [W] [TRT] onnx2trt_utils.cpp:400: One or more weights outside the range of INT32 was clamped
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [I] [TRT] Setting optimization profile for tensor: images {min [6, 3, 416, 416], opt [6, 3, 416, 416], max [6, 3, 416, 416]}
+[component_container_mt-46] [I] [TRT] Loading engine
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/localization' in container '/adapi/container'
+[component_container_mt-15] [INFO] [1772710806.378384308] [map.map_container]: Load Library: /home/tristan-toye/autoware/install/autoware_lanelet2_map_visualizer/lib/liblanelet2_map_visualization_node.so
+[component_container_mt-15] [INFO] [1772710806.384777528] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::lanelet2_map_visualizer::Lanelet2MapVisualizationNode>
+[component_container_mt-15] [INFO] [1772710806.384857018] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::lanelet2_map_visualizer::Lanelet2MapVisualizationNode>
+[component_container_mt-1] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-61] [INFO] [1772710806.477280884] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::CrosswalkModulePlugin' is loaded.
+[component_container_mt-46] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-61] [INFO] [1772710806.553574617] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::WalkwayModulePlugin' is loaded.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/lanelet2_map_visualization' in container '/map/map_container'
+[component_container_mt-1] [I] [TRT] Loaded engine size: 31 MiB
+[component_container_mt-15] [INFO] [1772710806.563791815] [map.lanelet2_map_visualization]: Map is loaded
+[component_container_mt-15] 
+[component_container_mt-18] [INFO] [1772710806.573013129] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[component_container_mt-1] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +34, now: CPU 0, GPU 350 (MiB)
+[component_container_mt-1] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +130, now: CPU 0, GPU 480 (MiB)
+[component_container_mt-61] [INFO] [1772710806.604386737] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::TrafficLightModulePlugin' is loaded.
+[component_container_mt-46] [I] [TRT] Loaded engine size: 45 MiB
+[component_container_mt-1] [I] [TRT] Network validation
+[component_container_mt-1] [I] [TRT] Engine setup completed
+[component_container_mt-1] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-1] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/object_recognition/detection/centerpoint/lidar_centerpoint' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710806.715857843] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_euclidean_cluster/lib/libautoware_euclidean_cluster_voxel_grid_node_core.so
+[component_container_mt-61] [INFO] [1772710806.722559824] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::IntersectionModulePlugin' is loaded.
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +45, now: CPU 0, GPU 94 (MiB)
+[component_container-20] [INFO] [1772710806.735258016] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +82, now: CPU 0, GPU 176 (MiB)
+[component_container_mt-46] [I] [TRT] Network validation
+[component_container_mt-46] [I] [TRT] Engine setup completed
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [INFO] [1772710806.750479327] [perception.traffic_light_recognition.camera7.detection.traffic_light_fine_detector]: GPU 0 is selected for the inference!
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera7/detection/traffic_light_fine_detector' in container '/perception/traffic_light_recognition/camera7/traffic_light_node_container'
+[component_container_mt-61] [INFO] [1772710806.799950188] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::BlindSpotModulePlugin' is loaded.
+[component_container_mt-45] [INFO] [1772710806.804834739] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-45] [INFO] [1772710806.804899144] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-1] [INFO] [1772710806.829480157] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::euclidean_cluster::VoxelGridBasedEuclideanClusterNode>
+[component_container_mt-1] [INFO] [1772710806.829543074] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::euclidean_cluster::VoxelGridBasedEuclideanClusterNode>
+[component_container_mt-61] [INFO] [1772710806.875775881] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::DetectionAreaModulePlugin' is loaded.
+[component_container_mt-61] [INFO] [1772710806.908937686] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::VirtualTrafficLightModulePlugin' is loaded.
+[component_container_mt-61] [INFO] [1772710806.957880817] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::NoStoppingAreaModulePlugin' is loaded.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner' in container '/planning/scenario_planning/lane_driving/behavior_planning/behavior_planning_container'
+[component_container_mt-61] [INFO] [1772710807.018517734] [planning.scenario_planning.lane_driving.behavior_planning.behavior_velocity_planner]: The scene plugin 'autoware::behavior_velocity_planner::experimental::StopLineModulePlugin' is loaded.
+[component_container_mt-55] [INFO] [1772710807.069187574] [planning.mission_planning.mission_planner_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/object_recognition/detection/clustering/euclidean_cluster' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710807.090011855] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.090071484] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710807.090090897] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.090105548] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-1] [INFO] [1772710807.090124485] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.090141925] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.090159903] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.090171404] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container_mt-1] [INFO] [1772710807.090182951] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097052344] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710807.097079930] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container_mt-1] [INFO] [1772710807.097093164] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710807.097105428] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container_mt-1] [INFO] [1772710807.097117480] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container_mt-1] [INFO] [1772710807.097129982] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097141633] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container_mt-1] [INFO] [1772710807.097153631] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097165536] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097177682] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097189608] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VectorMapInsideAreaFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097201814] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.097244351] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VoxelGridDownsampleFilterComponent>
+[component_container_mt-45] [I] [TRT] The logger passed into createInferRuntime differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-45] [I] [TRT] The logger passed into createInferBuilder differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-45] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 398, GPU 1462 (MiB)
+[component_container_mt-55] [INFO] [1772710807.103666396] [planning.mission_planning.mission_planner_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-55] [INFO] [1772710807.103719503] [planning.mission_planning.mission_planner_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-63] [INFO] [1772710807.115835126] [planning.scenario_planning.parking.parking_container]: Load Library: /home/tristan-toye/autoware/install/autoware_glog_component/lib/libautoware_glog_component.so
+[component_container-19] [INFO] [1772710807.130753244] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710807.130815206] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-19] [INFO] [1772710807.130835528] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-19] [INFO] [1772710807.130850135] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-45] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_classifier/ped_traffic_light_classifier_mobilenetv2_batch_6.onnx
+[component_container_mt-45] [I] [TRT] ONNX IR version:  0.0.9
+[component_container_mt-45] [I] [TRT] Opset version:    11
+[component_container_mt-45] [I] [TRT] Producer name:    pytorch
+[component_container_mt-45] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-45] [I] [TRT] Domain:           
+[component_container_mt-45] [I] [TRT] Model version:    0
+[component_container_mt-45] [I] [TRT] Doc string:       
+[component_container_mt-45] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-45] [I] [TRT] Setting optimization profile for tensor: input {min [6, 3, 224, 224], opt [6, 3, 224, 224], max [6, 3, 224, 224]}
+[component_container_mt-45] [I] [TRT] Loading engine
+[component_container_mt-63] [INFO] [1772710807.188089885] [planning.scenario_planning.parking.parking_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-63] [INFO] [1772710807.188158331] [planning.scenario_planning.parking.parking_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::glog_component::GlogComponent>
+[component_container_mt-45] [I] [TRT] Plan was created with TensorRT 8.6.1
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera6/classification/pedestrian_traffic_light_classifier' in container '/perception/traffic_light_recognition/camera6/traffic_light_node_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/planning_validator' in container '/planning/planning_validator_container'
+[component_container_mt-45] [I] [TRT] Loaded engine size: 8 MiB
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +9, now: CPU 0, GPU 185 (MiB)
+[component_container_mt-45] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +41, now: CPU 1, GPU 226 (MiB)
+[component_container_mt-45] [I] [TRT] Network validation
+[component_container_mt-45] [I] [TRT] Engine setup completed
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-45] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [INFO] [1772710807.294483532] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-46] [INFO] [1772710807.294547473] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightClassifierNodelet>
+[component_container_mt-18] [INFO] [1772710807.304828673] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-18] [INFO] [1772710807.304888301] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-18] [INFO] [1772710807.304907752] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-18] [INFO] [1772710807.304924507] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-68] [INFO] [1772710807.319142631] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_vehicle_cmd_gate/lib/libvehicle_cmd_gate_node.so
+[component_container_mt-46] [I] [TRT] The logger passed into createInferRuntime differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-46] [I] [TRT] The logger passed into createInferBuilder differs from one already provided for an existing builder, runtime, or refitter. Uses of the global logger, returned by nvinfer1::getLogger(), will return the existing value.
+[component_container_mt-46] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 398, GPU 1518 (MiB)
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] [I] [TRT] Input filename:   /home/tristan-toye/autoware_data/traffic_light_classifier/ped_traffic_light_classifier_mobilenetv2_batch_6.onnx
+[component_container_mt-46] [I] [TRT] ONNX IR version:  0.0.9
+[component_container_mt-46] [I] [TRT] Opset version:    11
+[component_container_mt-46] [I] [TRT] Producer name:    pytorch
+[component_container_mt-46] [I] [TRT] Producer version: 1.13.1
+[component_container_mt-46] [I] [TRT] Domain:           
+[component_container_mt-46] [I] [TRT] Model version:    0
+[component_container_mt-46] [I] [TRT] Doc string:       
+[component_container_mt-46] [I] [TRT] ----------------------------------------------------------------
+[component_container_mt-46] [I] [TRT] Setting optimization profile for tensor: input {min [6, 3, 224, 224], opt [6, 3, 224, 224], max [6, 3, 224, 224]}
+[component_container_mt-46] [I] [TRT] Loading engine
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [W] [TRT] Engine is not initialized. Retrieving data from network
+[component_container_mt-46] [I] [TRT] Plan was created with TensorRT 8.6.1
+[component_container_mt-46] [I] [TRT] Loaded engine size: 8 MiB
+[component_container_mt-68] [INFO] [1772710807.471413025] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::vehicle_cmd_gate::VehicleCmdGate>
+[component_container_mt-68] [INFO] [1772710807.471472426] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::vehicle_cmd_gate::VehicleCmdGate>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/object_recognition/detection/voxel_grid_downsample_filter' in container 'pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera7/classification/pedestrian_traffic_light_classifier' in container '/perception/traffic_light_recognition/camera7/traffic_light_node_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/crop_box_filter_self' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/crop_box_filter_self' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/mission_planning/glog_component' in container '/planning/mission_planning/mission_planner_container'
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in engine deserialization: CPU +0, GPU +9, now: CPU 0, GPU 185 (MiB)
+[component_container_mt-46] [I] [TRT] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +1, GPU +41, now: CPU 1, GPU 226 (MiB)
+[component_container_mt-46] [I] [TRT] Network validation
+[component_container_mt-46] [I] [TRT] Engine setup completed
+[component_container_mt-1] [INFO] [1772710807.487010542] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488419133] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710807.488457658] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488473383] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-1] [INFO] [1772710807.488547131] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488569685] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488584347] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488596743] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container_mt-1] [INFO] [1772710807.488614963] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488629274] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710807.488643852] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container_mt-1] [INFO] [1772710807.488661587] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710807.488677731] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container_mt-1] [INFO] [1772710807.488694651] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container_mt-1] [INFO] [1772710807.488713875] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488727318] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container_mt-1] [INFO] [1772710807.488739533] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488758778] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488779156] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488799879] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VectorMapInsideAreaFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488818311] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710807.488838196] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::VoxelGridDownsampleFilterComponent>
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[component_container_mt-46] [W] [TRT] Network IO is empty, skipping validation. It might lead to undefined behavior
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planning/scenario_planning/parking/glog_component' in container '/planning/scenario_planning/parking/parking_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map/vector_map_tf_generator' in container '/map/map_container'
+[component_container_mt-15] [INFO] [1772710807.742930810] [map.map_container]: Load Library: /home/tristan-toye/autoware/install/autoware_map_tf_generator/lib/libvector_map_tf_generator_node.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/vehicle_cmd_gate' in container '/control/control_container'
+[component_container_mt-15] [INFO] [1772710807.767383499] [map.map_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::map_tf_generator::VectorMapTFGeneratorNode>
+[component_container_mt-15] [INFO] [1772710807.767440801] [map.map_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::map_tf_generator::VectorMapTFGeneratorNode>
+[component_container_mt-15] [INFO] [1772710807.817174480] [map.vector_map_tf_generator]: broadcast static tf. map_frame:map, viewer_frame:viewer, x:89603.7, y:42321.8, z:-1.63582
+[component_container_mt-45] [INFO] [1772710807.866127705] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_visualization/lib/libtraffic_light_roi_visualizer.so
+[component_container_mt-45] [INFO] [1772710807.884068108] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightRoiVisualizerNode>
+[component_container_mt-45] [INFO] [1772710807.884129394] [perception.traffic_light_recognition.camera6.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightRoiVisualizerNode>
+[component_container_mt-46] [INFO] [1772710807.878265218] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Load Library: /home/tristan-toye/autoware/install/autoware_traffic_light_visualization/lib/libtraffic_light_roi_visualizer.so
+[component_container_mt-46] [INFO] [1772710807.885234403] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightRoiVisualizerNode>
+[component_container_mt-46] [INFO] [1772710807.885295581] [perception.traffic_light_recognition.camera7.traffic_light_node_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::traffic_light::TrafficLightRoiVisualizerNode>
+[component_container-19] [INFO] [1772710807.912575854] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710807.912642061] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-19] [INFO] [1772710807.912663569] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-19] [INFO] [1772710807.912678320] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-18] [INFO] [1772710807.940214336] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/crop_box_filter_mirror' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[component_container_mt-18] [INFO] [1772710807.940274501] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-18] [INFO] [1772710807.940289463] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-18] [INFO] [1772710807.940301960] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.043631151] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_ground_segmentation/lib/libautoware_ground_segmentation.so
+[component_container_mt-68] [INFO] [1772710808.065032555] [control.control_container]: Load Library: /home/tristan-toye/autoware/install/autoware_operation_mode_transition_manager/lib/libautoware_operation_mode_transition_manager_node.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/localization/util/voxel_grid_downsample_filter' in container '/pointcloud_container'
+[component_container-19] [INFO] [1772710808.067023280] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710808.067078397] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-19] [INFO] [1772710808.067097426] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-19] [INFO] [1772710808.067112134] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-19] [INFO] [1772710808.067126638] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/routing' in container '/adapi/container'
+[component_container-21] [INFO] [1772710808.100508160] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera6/traffic_light_roi_visualizer' in container '/perception/traffic_light_recognition/camera6/traffic_light_node_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/crop_box_filter_self' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710808.100562865] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-21] [INFO] [1772710808.100582082] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-21] [INFO] [1772710808.100594551] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.164747451] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::ground_segmentation::RANSACGroundFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.164803281] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::ground_segmentation::RayGroundFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.164818819] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::ground_segmentation::ScanGroundFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.164831757] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::ground_segmentation::ScanGroundFilterComponent>
+[component_container_mt-68] [INFO] [1772710808.205747315] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::operation_mode_transition_manager::AutonomousModeTransitionFlagNode>
+[component_container_mt-68] [INFO] [1772710808.205803490] [control.control_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::operation_mode_transition_manager::OperationModeTransitionManager>
+[component_container_mt-68] [INFO] [1772710808.205823823] [control.control_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::operation_mode_transition_manager::OperationModeTransitionManager>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/crop_box_filter_mirror' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710808.256325669] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-21] [INFO] [1772710808.256426841] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-21] [INFO] [1772710808.256447828] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-21] [INFO] [1772710808.256463272] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.333361323] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.333461351] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-18] [INFO] [1772710808.333480760] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.333504497] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-18] [INFO] [1772710808.333524515] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/control/autoware_operation_mode_transition_manager' in container '/control/control_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/traffic_light_recognition/camera7/traffic_light_roi_visualizer' in container '/perception/traffic_light_recognition/camera7/traffic_light_node_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/autoware_state' in container '/adapi/container'
+[component_container-20] [INFO] [1772710808.529821043] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710808.531566279] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-20] [INFO] [1772710808.531597564] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-20] [INFO] [1772710808.531616153] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/diagnostics' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/distortion_corrector_node' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/fail_safe' in container '/adapi/container'
+[component_container-19] [INFO] [1772710808.799652766] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710808.800297438] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/distortion_corrector_node' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[component_container-19] [INFO] [1772710808.800327980] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-19] [INFO] [1772710808.800345735] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-19] [INFO] [1772710808.800374471] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container-19] [INFO] [1772710808.800395557] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container-19] [INFO] [1772710808.800413631] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container-19] [INFO] [1772710808.800428496] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container-19] [INFO] [1772710808.800445275] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710808.800465015] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container-19] [INFO] [1772710808.800479086] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container-19] [INFO] [1772710808.800495281] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container-19] [INFO] [1772710808.800511999] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container-19] [INFO] [1772710808.800526939] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container-19] [INFO] [1772710808.800544623] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container-19] [INFO] [1772710808.800561751] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container-19] [INFO] [1772710808.800579727] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container-19] [INFO] [1772710808.800600133] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container-19] [INFO] [1772710808.800615400] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container-19] [INFO] [1772710808.800663786] [sensing.lidar.left.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/crop_box_filter_mirror' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container_mt-18] [INFO] [1772710808.898345625] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.898428274] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-18] [INFO] [1772710808.898454542] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/crop_box_filter_self' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[component_container_mt-18] [INFO] [1772710808.898476783] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-18] [INFO] [1772710808.898497689] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.898519718] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.898542014] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.898583036] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container_mt-18] [INFO] [1772710808.898600225] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.898619313] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-18] [INFO] [1772710808.898638242] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container_mt-18] [INFO] [1772710808.898655382] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container_mt-18] [INFO] [1772710808.901618427] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container_mt-18] [INFO] [1772710808.902316861] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container_mt-18] [INFO] [1772710808.902340719] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.902356080] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container_mt-18] [INFO] [1772710808.902385099] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.902400330] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.902415743] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container_mt-18] [INFO] [1772710808.902760003] [sensing.lidar.top.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container-21] [INFO] [1772710808.918356827] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/obstacle_segmentation/common_ground_filter' in container 'pointcloud_container'
+[component_container-21] [INFO] [1772710808.918456220] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-21] [INFO] [1772710808.918479403] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-21] [INFO] [1772710808.918495407] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-21] [INFO] [1772710808.918513975] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-20] [INFO] [1772710808.952927863] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710808.952982509] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-20] [INFO] [1772710808.953001000] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-20] [INFO] [1772710808.953016028] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710808.970700331] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_compare_map_segmentation/lib/libautoware_compare_map_segmentation.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/distortion_corrector_node' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710809.152602040] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/heartbeat' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/crop_box_filter_mirror' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710809.152667764] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/left/ring_outlier_filter' in container '/sensing/lidar/left/pointcloud_preprocessor/pointcloud_container'
+[component_container-21] [INFO] [1772710809.158966742] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-21] [INFO] [1772710809.159006440] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-21] [INFO] [1772710809.159030787] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container-21] [INFO] [1772710809.159052240] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container-21] [INFO] [1772710809.159074058] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container-21] [INFO] [1772710809.159096152] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container-21] [INFO] [1772710809.159118923] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container-21] [INFO] [1772710809.159141380] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container-21] [INFO] [1772710809.159163424] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container-21] [INFO] [1772710809.159184621] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container-21] [INFO] [1772710809.163504819] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container-21] [INFO] [1772710809.163535989] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container-21] [INFO] [1772710809.163580594] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container-21] [INFO] [1772710809.163595686] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container-21] [INFO] [1772710809.163611113] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container-21] [INFO] [1772710809.163623787] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container-21] [INFO] [1772710809.163636664] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container-21] [INFO] [1772710809.163649670] [sensing.lidar.rear.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container-20] [INFO] [1772710809.210948697] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710809.211009806] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-20] [INFO] [1772710809.211029106] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-20] [INFO] [1772710809.211114848] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-20] [INFO] [1772710809.211136905] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/top/ring_outlier_filter' in container '/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/distortion_corrector_node' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/rear/ring_outlier_filter' in container '/sensing/lidar/rear/pointcloud_preprocessor/pointcloud_container'
+[component_container-20] [INFO] [1772710809.435219278] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710809.435296974] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container-20] [INFO] [1772710809.435316279] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container-20] [INFO] [1772710809.435330560] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container-20] [INFO] [1772710809.435344353] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container-20] [INFO] [1772710809.435358226] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container-20] [INFO] [1772710809.435390830] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container-20] [INFO] [1772710809.435408236] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container-20] [INFO] [1772710809.435421068] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710809.435434805] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container-20] [INFO] [1772710809.435477708] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container-20] [INFO] [1772710809.435494352] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container-20] [INFO] [1772710809.435506136] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container-20] [INFO] [1772710809.435517736] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container-20] [INFO] [1772710809.435530903] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container-20] [INFO] [1772710809.435543677] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container-20] [INFO] [1772710809.435557659] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container-20] [INFO] [1772710809.435570350] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container-20] [INFO] [1772710809.435582804] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container-20] [INFO] [1772710809.435597123] [sensing.lidar.right.pointcloud_preprocessor.pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RingOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507044428] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::CompareElevationMapFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507105839] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::DistanceBasedCompareMapFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507134451] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::LaneletElevationFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507148284] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::VoxelBasedApproximateCompareMapFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507161124] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::VoxelBasedCompareMapFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.507174590] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::compare_map_segmentation::VoxelBasedCompareMapFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/manual/local' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/sensing/lidar/right/ring_outlier_filter' in container '/sensing/lidar/right/pointcloud_preprocessor/pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/manual/remote' in container '/adapi/container'
+[component_container_mt-1] [INFO] [1772710809.748736473] [perception.object_recognition.detection.voxel_based_compare_map_filter]: VoxelGridDynamicMapLoader initialized.
+[component_container_mt-1] 
+[component_container_mt-1] [INFO] [1772710809.759060958] [perception.object_recognition.detection.voxel_based_compare_map_filter]: tf_map_input_frame: map
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/object_recognition/detection/voxel_based_compare_map_filter' in container 'pointcloud_container'
+[component_container_mt-1] [INFO] [1772710809.768428154] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::ApproximateDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769253686] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::BlockageDiagComponent>
+[component_container_mt-1] [INFO] [1772710809.769279940] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::CropBoxFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769298702] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DistortionCorrectorComponent>
+[component_container_mt-1] [INFO] [1772710809.769311316] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::DualReturnOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769322604] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::Lanelet2MapFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769340182] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769351111] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PassThroughFilterUInt16Component>
+[component_container_mt-1] [INFO] [1772710809.769361724] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PickupBasedVoxelGridDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769387050] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenateDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710809.769406455] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudConcatenationComponent>
+[component_container_mt-1] [INFO] [1772710809.769417744] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDataSynchronizerComponent>
+[component_container_mt-1] [INFO] [1772710809.769428119] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointCloudDensifierNode>
+[component_container_mt-1] [INFO] [1772710809.769438675] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PointcloudAccumulatorComponent>
+[component_container_mt-1] [INFO] [1772710809.769450288] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolarVoxelOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769488431] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::PolygonRemoverComponent>
+[component_container_mt-1] [INFO] [1772710809.769500385] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RadiusSearch2DOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769511080] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.769522061] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::pointcloud_preprocessor::RandomDownsampleFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/localization/util/random_downsample_filter' in container '/pointcloud_container'
+[component_container_mt-1] [INFO] [1772710809.878253351] [pointcloud_container]: Load Library: /home/tristan-toye/autoware/install/autoware_occupancy_grid_map_outlier_filter/lib/libautoware_occupancy_grid_map_outlier_filter.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/motion' in container '/adapi/container'
+[component_container_mt-1] [INFO] [1772710809.897685770] [pointcloud_container]: Found class: rclcpp_components::NodeFactoryTemplate<autoware::occupancy_grid_map_outlier_filter::OccupancyGridMapOutlierFilterComponent>
+[component_container_mt-1] [INFO] [1772710809.897744718] [pointcloud_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<autoware::occupancy_grid_map_outlier_filter::OccupancyGridMapOutlierFilterComponent>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/mrm_request' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/perception/obstacle_segmentation/occupancy_grid_based_outlier_filter' in container 'pointcloud_container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/operation_mode' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/perception' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/planning' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/vehicle_status' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/vehicle_command' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/vehicle_metrics' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/vehicle_info' in container '/adapi/container'
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/adapi/node/vehicle_door' in container '/adapi/container'
+[autoware_mrm_handler_node-13] [INFO] [1772710831.685266179] [system.mrm_handler]: waiting for operation_mode_availability msg...
+[component_container-7] [INFO] [1772710831.686315839] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[autoware_ekf_localizer_node-30] [WARN] [1772710831.687983550] [localization.pose_twist_fusion_filter.ekf_localizer]: The node is not activated. Provide initial pose to pose_initializer
+[autoware_scenario_selector_node-57] [INFO] [1772710831.692987926] [planning.scenario_planning.scenario_selector]: Waiting for current pose.
+[component_container_mt-55] [INFO] [1772710831.693840862] [planning.mission_planning.mission_planner]: waiting odometry... Route API is not ready.
+[component_container_mt-68] [WARN] [1772710831.694815902] [control.vehicle_cmd_gate]: emergency_state_heartbeat_received_time_ is false
+[component_container_mt-68] [INFO] [1772710831.694863887] [control.vehicle_cmd_gate]: waiting topics...
+[component_container_mt-63] [ERROR] [1772710831.700882868] [planning.scenario_planning.parking.costmap_generator]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container-21] [WARN] [1772710831.702933182] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-69] [INFO] [1772710831.704135004] [control.collision_detector]: waiting for current odometry...
+[component_container_mt-68] [INFO] [1772710831.710275295] [control.trajectory_follower.controller_node_exe]: Waiting for acceleration data
+[component_container_mt-68] [INFO] [1772710831.710361802] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[autoware_pose_initializer_node-28] [INFO] [1772710831.722676032] [localization.util.pose_initializer]: EKF triggering service is available!
+[autoware_pose_initializer_node-28] [INFO] [1772710831.725048704] [localization.util.pose_initializer]: EKF Deactivation succeeded
+[autoware_pose_initializer_node-28] [INFO] [1772710831.726531253] [localization.util.pose_initializer]: NDT triggering service is available!
+[autoware_pose_initializer_node-28] [INFO] [1772710831.732734861] [localization.util.pose_initializer]: NDT Deactivation succeeded
+[component_container_mt-18] [WARN] [1772710831.732799458] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[service_log_checker_node-6] [ERROR] [1772710831.745947102] [system.service_log_checker]: /api/localization/initialize: status code 3 'The GNSS pose has not arrived.' (/localization/util/default_adapi/helpers/autoware_automatic_pose_initializer)
+[component_container-19] [WARN] [1772710831.749797280] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-69] [INFO] [1772710831.778143912] [control.trajectory_follower.lane_departure_checker_node]: waiting for current_twist msg...
+[component_container-20] [WARN] [1772710831.784647830] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-20] [WARN] [1772710831.916445260] [sensing.lidar.right.distortion_corrector_node]: Twist queue is empty.
+[logging_node-14] [WARN] [1772710831.992776315] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/topic_rate_check/transform ERROR
+[logging_node-14]             - /autoware/localization/topic_rate_check/pose_twist_fusion ERROR
+[logging_node-14]             - /autoware/localization/scan_matching_status STALE
+[logging_node-14]             - /autoware/localization/accuracy STALE
+[logging_node-14]             - /autoware/localization/sensor_fusion_status WARN 
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]     - /autoware/perception ERROR
+[logging_node-14]         - /autoware/perception/topic_rate_check/objects ERROR
+[logging_node-14]         - /autoware/perception/topic_rate_check/pointcloud ERROR
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14]     - /autoware/system ERROR
+[logging_node-14]         - /autoware/system/topic_rate_check/emergency_control_command ERROR
+[logging_node-14] 
+[component_container-19] [WARN] [1772710831.994877921] [sensing.lidar.left.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-18] [WARN] [1772710832.358756605] [sensing.lidar.top.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-1] [WARN] [1772710832.443176415] [sensing.lidar.concatenate_data]: No twist is available. Please confirm twist topic and timestamp. Leaving point cloud untransformed.
+[component_container_mt-1] [WARN] [1772710832.566828047] [perception.object_recognition.detection.centerpoint.lidar_centerpoint]: The compatible callback was called. This results in a performance loss. This behavior is probably not intended or a temporal measure
+[component_container_mt-1] [WARN] [1772710835.104926033] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710835.104953978] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710835.152614690] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[autoware_pose_initializer_node-28] [INFO] [1772710836.781679132] [localization.util.pose_initializer]: EKF triggering service is available!
+[autoware_pose_initializer_node-28] [INFO] [1772710836.782434546] [localization.util.pose_initializer]: EKF Deactivation succeeded
+[autoware_pose_initializer_node-28] [INFO] [1772710836.782914761] [localization.util.pose_initializer]: NDT triggering service is available!
+[autoware_pose_initializer_node-28] [INFO] [1772710836.784358374] [localization.util.pose_initializer]: NDT Deactivation succeeded
+[autoware_pose_initializer_node-28] [INFO] [1772710836.784439294] [localization.util.pose_initializer]: fit_target: pointcloud_map, frame: map
+[autoware_pose_initializer_node-28] [INFO] [1772710836.874720449] [localization.util.pose_initializer]: Call align server.
+[rviz2-74] [INFO] [1772710837.364428013] [rviz2]: Message Filter dropping message: frame 'base_link' at time 1585897255,286 for reason 'discarding message because the queue is full'
+[component_container_mt-1] [WARN] [1772710837.706436490] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710837.706461581] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710837.751477005] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710840.238715388] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710840.238776230] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710840.292437105] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[autoware_ekf_localizer_node-30] [WARN] [1772710841.762259308] [localization.pose_twist_fusion_filter.ekf_localizer]: The node is not activated. Provide initial pose to pose_initializer
+[component_container_mt-1] [WARN] [1772710842.781081591] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710842.781111024] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710842.834191884] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710845.330003567] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710845.330040762] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710845.382785412] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container-7] [INFO] [1772710847.008987290] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[component_container_mt-1] [WARN] [1772710847.869248183] [lidar_centerpoint]: Could not find a connection between 'base_link' and 'map' because they are not part of the same tree.Tf has two or more unconnected trees.
+[component_container_mt-1] [WARN] [1772710847.869281989] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710847.916703908] [perception.occupancy_grid_map.occupancy_grid_map_node]: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[autoware_pose_initializer_node-28] [INFO] [1772710848.241914387] [localization.util.pose_initializer]: align server succeeded.
+[autoware_pose_initializer_node-28] [INFO] [1772710848.243045423] [localization.util.pose_initializer]: EKF triggering service is available!
+[autoware_pose_initializer_node-28] [INFO] [1772710848.244876462] [localization.util.pose_initializer]: EKF Activation succeeded
+[autoware_pose_initializer_node-28] [INFO] [1772710848.245201414] [localization.util.pose_initializer]: NDT triggering service is available!
+[autoware_ndt_scan_matcher_node-26] [INFO] [1772710848.248512595] [localization.pose_estimator.ndt_scan_matcher]: pose_buffer_.size() < 2
+[autoware_pose_initializer_node-28] [INFO] [1772710848.248614271] [localization.util.pose_initializer]: NDT Activation succeeded
+[autoware_scenario_selector_node-57] [INFO] [1772710848.472772350] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container_mt-69] [INFO] [1772710848.477725079] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...
+[planning_evaluator-65] [WARN] [1772710848.508211000] [route_handler]: setMap() for invalid version map: 
+[control_evaluator-70] [WARN] [1772710848.512159390] [route_handler]: setMap() for invalid version map: 
+[autoware_ndt_scan_matcher_node-26] [INFO] [1772710848.660759488] [localization.pose_estimator.ndt_scan_matcher]: Mismatch between pose timestamp and current timestamp
+[logging_node-14] [WARN] [1772710848.980039939] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/topic_rate_check/transform ERROR
+[logging_node-14]             - /autoware/localization/topic_rate_check/pose_twist_fusion ERROR
+[logging_node-14]             - /autoware/localization/scan_matching_status WARN 
+[logging_node-14]             - /autoware/localization/accuracy ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]     - /autoware/perception ERROR
+[logging_node-14]         - /autoware/perception/topic_rate_check/pointcloud ERROR
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14] 
+[autoware_ndt_scan_matcher_node-26] [INFO] [1772710849.292702015] [localization.pose_estimator.ndt_scan_matcher]: Mismatch between pose timestamp and current timestamp
+[component_container_mt-1] [WARN] [1772710850.411095506] [lidar_centerpoint]: Lookup would require extrapolation into the past.  Requested time 1585897257.944387 but the earliest data is at time 1585897258.663279, when looking up transform from frame [map] to frame [base_link]
+[component_container_mt-1] [WARN] [1772710850.411124925] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container_mt-1] [WARN] [1772710850.551615853] [perception.occupancy_grid_map.occupancy_grid_map_node]: Lookup would require extrapolation into the past.  Requested time 1585897258.343836 but the earliest data is at time 1585897258.663279, when looking up transform from frame [base_link] to frame [map]
+[component_container_mt-71] [INFO] [1772710851.980520458] [adapi.node.autoware_state]: AutowareState: Initializing => WaitingForRoute
+[component_container_mt-1] [WARN] [1772710852.943309692] [lidar_centerpoint]: Lookup would require extrapolation into the past.  Requested time 1585897258.443349 but the earliest data is at time 1585897258.663279, when looking up transform from frame [map] to frame [base_link]
+[component_container_mt-1] [WARN] [1772710852.943348032] [lidar_centerpoint]: Fail to preprocess and skip to detect.
+[component_container-21] [WARN] [1772710856.702662018] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-68] [INFO] [1772710856.803851603] [control.trajectory_follower.controller_node_exe]: Waiting for steering data
+[component_container_mt-68] [INFO] [1772710856.803952028] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[component_container_mt-18] [WARN] [1772710856.932969839] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-61] [INFO] [1772710856.953838225] [planning.scenario_planning.lane_driving.behavior_planning.behavior_path_planner]: waiting for scenario_topic
+[component_container_mt-69] [INFO] [1772710856.958363848] [control.autonomous_emergency_braking]: [AEB] waiting for ego velocity
+[component_container-20] [WARN] [1772710857.884929535] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-19] [WARN] [1772710857.949631847] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-7] [INFO] [1772710862.489360943] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[logging_node-14] [WARN] [1772710870.549273726] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]         - /autoware/control/performance_monitoring/lane_departure STALE
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14]     - /adapi/mrm_request/delegate STALE
+[logging_node-14] 
+[autoware_scenario_selector_node-57] [INFO] [1772710873.977739389] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container_mt-69] [INFO] [1772710873.979131528] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...
+[component_container-7] [INFO] [1772710877.974047599] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[component_container-21] [WARN] [1772710881.802856062] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-68] [INFO] [1772710881.837294815] [control.trajectory_follower.controller_node_exe]: Waiting for steering data
+[component_container_mt-68] [INFO] [1772710881.837504638] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[component_container_mt-69] [INFO] [1772710881.985746009] [control.autonomous_emergency_braking]: [AEB] waiting for ego velocity
+[component_container_mt-61] [INFO] [1772710881.989393524] [planning.scenario_planning.lane_driving.behavior_planning.behavior_path_planner]: waiting for scenario_topic
+[component_container_mt-18] [WARN] [1772710882.333217594] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-20] [WARN] [1772710882.348968395] [sensing.lidar.right.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-18] [WARN] [1772710882.391396301] [sensing.lidar.top.distortion_corrector_node]: Twist queue is empty.
+[component_container-19] [WARN] [1772710882.444232180] [sensing.lidar.left.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-1] [WARN] [1772710882.453040056] [sensing.lidar.concatenate_data]: No twist is available. Please confirm twist topic and timestamp. Leaving point cloud untransformed.
+[component_container-19] [WARN] [1772710882.949811361] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[logging_node-14] [WARN] [1772710885.557035134] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]             - /autoware/planning/trajectory_validation ERROR
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]         - /autoware/control/performance_monitoring/lane_departure STALE
+[logging_node-14]         - /autoware/control/performance_monitoring/control_state STALE
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14]     - /adapi/mrm_request/delegate STALE
+[logging_node-14] 
+[component_container-7] [INFO] [1772710892.993410643] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[rviz2-74] [INFO] [1772710894.271519351] [rviz2]: Message Filter dropping message: frame 'base_link' at time 1585897257,844 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[component_container_mt-69] [INFO] [1772710898.987561308] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...
+[autoware_scenario_selector_node-57] [INFO] [1772710898.990001070] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container-20] [WARN] [1772710904.785269697] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-21] [WARN] [1772710906.803025243] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-68] [INFO] [1772710906.903720762] [control.trajectory_follower.controller_node_exe]: Waiting for steering data
+[component_container_mt-68] [INFO] [1772710906.903791656] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[component_container_mt-61] [INFO] [1772710907.464263614] [planning.scenario_planning.lane_driving.behavior_planning.behavior_path_planner]: waiting for scenario_topic
+[component_container_mt-69] [INFO] [1772710907.466940970] [control.autonomous_emergency_braking]: [AEB] waiting for ego velocity
+[component_container_mt-18] [WARN] [1772710908.233421573] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-19] [WARN] [1772710908.450030567] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-7] [INFO] [1772710908.485698437] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[logging_node-14] [WARN] [1772710915.560812743] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]             - /autoware/planning/trajectory_validation ERROR
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]         - /autoware/control/performance_monitoring/lane_departure STALE
+[logging_node-14]         - /autoware/control/performance_monitoring/control_state STALE
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14]     - /adapi/mrm_request/delegate STALE
+[logging_node-14] 
+[component_container_mt-1] [WARN] [1772710915.741481577] [lidar_centerpoint]: The actual number of pillars (40042) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710917.283745062] [lidar_centerpoint]: The actual number of pillars (40769) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710918.802133137] [lidar_centerpoint]: The actual number of pillars (42220) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710919.853374343] [lidar_centerpoint]: The actual number of pillars (43518) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710920.871428962] [lidar_centerpoint]: The actual number of pillars (41292) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710921.939197581] [lidar_centerpoint]: The actual number of pillars (41821) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710923.076442689] [lidar_centerpoint]: The actual number of pillars (41456) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container-7] [INFO] [1772710923.968473305] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[component_container_mt-1] [WARN] [1772710924.084613262] [lidar_centerpoint]: The actual number of pillars (41239) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[autoware_scenario_selector_node-57] [INFO] [1772710924.477359336] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container_mt-69] [INFO] [1772710924.480708984] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...
+[component_container_mt-1] [WARN] [1772710926.066056536] [lidar_centerpoint]: The actual number of pillars (40100) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container_mt-1] [WARN] [1772710928.102771153] [lidar_centerpoint]: The actual number of pillars (40777) exceeds its maximum value (40000). Please considering increasing it since it may limit the detection performance.
+[component_container-20] [WARN] [1772710930.785480555] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[logging_node-14] [WARN] [1772710931.478449958] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/accuracy ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14] 
+[component_container-21] [WARN] [1772710931.903243310] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-68] [INFO] [1772710931.933715527] [control.trajectory_follower.controller_node_exe]: Waiting for steering data
+[component_container_mt-68] [INFO] [1772710931.933786433] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[component_container-20] [WARN] [1772710932.387123800] [sensing.lidar.right.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-69] [INFO] [1772710932.490956093] [control.autonomous_emergency_braking]: [AEB] waiting for ego velocity
+[component_container_mt-61] [INFO] [1772710932.500471998] [planning.scenario_planning.lane_driving.behavior_planning.behavior_path_planner]: waiting for scenario_topic
+[component_container_mt-18] [WARN] [1772710932.686074774] [sensing.lidar.top.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-1] [WARN] [1772710932.726089049] [sensing.lidar.concatenate_data]: No twist is available. Please confirm twist topic and timestamp. Leaving point cloud untransformed.
+[component_container-19] [WARN] [1772710932.954515283] [sensing.lidar.left.distortion_corrector_node]: Twist queue is empty.
+[component_container_mt-18] [WARN] [1772710933.633643722] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-19] [WARN] [1772710935.950287813] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-7] [INFO] [1772710938.998285351] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[autoware_scenario_selector_node-57] [INFO] [1772710949.966710127] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container_mt-69] [INFO] [1772710949.968397039] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...
+[component_container-7] [INFO] [1772710954.491382165] [system.topic_state_monitor_mission_planning_route]: /planning/mission_planning/route has not received. Set ERROR in diagnostics.
+[logging_node-14] [WARN] [1772710955.562391316] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - /autoware/localization/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/accuracy ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state STALE
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]             - /autoware/planning/trajectory_validation ERROR
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]         - /autoware/control/performance_monitoring/lane_departure STALE
+[logging_node-14]         - /autoware/control/performance_monitoring/control_state STALE
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14] 
+[component_container_mt-68] [INFO] [1772710956.978438203] [control.trajectory_follower.controller_node_exe]: Waiting for steering data
+[component_container_mt-68] [INFO] [1772710956.978545026] [control.trajectory_follower.controller_node_exe]: Control is skipped since input data is not ready.
+[component_container-21] [WARN] [1772710957.003484422] [sensing.lidar.rear.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container_mt-69] [INFO] [1772710957.995168357] [control.autonomous_emergency_braking]: [AEB] waiting for ego velocity
+[component_container_mt-61] [INFO] [1772710958.002841113] [planning.scenario_planning.lane_driving.behavior_planning.behavior_path_planner]: waiting for scenario_topic
+[component_container_mt-18] [WARN] [1772710959.633877949] [sensing.lidar.top.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-19] [WARN] [1772710961.950540662] [sensing.lidar.left.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-20] [WARN] [1772710962.285773390] [sensing.lidar.right.velodyne_ros_wrapper_node.VelodyneDecoder]: Missed pointcloud output deadline
+[component_container-7] [INFO] [1772710969.982967422] [system.topic_state_monitor_vehicle_status_steering_status]: /vehicle/status/steering_status has not received. Set ERROR in diagnostics.
+[logging_node-14] [WARN] [1772710970.997008274] [logging_diag_graph]: The target mode is not available for the following reasons:
+[logging_node-14] - /autoware/modes/autonomous ERROR
+[logging_node-14]     - /autoware/localization ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/localization/accuracy ERROR
+[logging_node-14]             - /autoware/localization/sensor_fusion_status ERROR
+[logging_node-14]     - /autoware/planning ERROR
+[logging_node-14]         - /autoware/planning/routing/state ERROR
+[logging_node-14]         - [anonymous group] ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/route ERROR
+[logging_node-14]             - /autoware/planning/topic_rate_check/trajectory STALE
+[logging_node-14]     - /autoware/control ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/trajectory_follower ERROR
+[logging_node-14]         - /autoware/control/topic_rate_check/control_command ERROR
+[logging_node-14]     - /autoware/vehicle ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/velocity ERROR
+[logging_node-14]         - /autoware/vehicle/topic_rate_check/steering ERROR
+[logging_node-14] 
+[autoware_scenario_selector_node-57] [INFO] [1772710975.551855482] [planning.scenario_planning.scenario_selector]: Waiting for route.
+[component_container_mt-69] [INFO] [1772710975.554430718] [control.trajectory_follower.lane_departure_checker_node]: waiting for route msg...

@@ -1,0 +1,15 @@
+node,num_param_sets,latency_mean_us,latency_min_us,latency_max_us,latency_std_us,latency_range_us,latency_cv
+pointcloud_concatenate_data,6,3.47,0.25,1290.91,17.40,9.76,5.02
+multi_object_tracker,8,13.68,0.56,677.92,21.17,8.70,1.55
+ekf_localizer,14,14.47,0.45,1855.91,26.25,7.47,1.81
+behavior_path_planner,12,14.72,0.49,1135.28,21.82,4.37,1.48
+autonomous_emergency_braking,15,7.13,0.26,1416.93,14.96,2.39,2.10
+trajectory_follower_controller,6,2.12,0.34,158.39,5.52,1.37,2.61
+lidar_centerpoint,9,6.87,0.44,423.84,12.14,0.62,1.77
+ndt_scan_matcher,24,5.04,0.35,1960.14,13.89,0.61,2.75
+map_based_prediction,15,4.08,0.38,732.29,9.41,0.55,2.31
+velocity_smoother,12,4.27,0.48,378.50,6.43,0.50,1.51
+euclidean_cluster,9,4.30,0.27,710.84,7.66,0.42,1.78
+occupancy_grid_map_node,6,3.72,0.33,619.97,7.58,0.39,2.04
+mission_planner,6,4.35,0.39,492.30,10.32,0.34,2.37
+shape_estimation,5,4.33,0.43,326.80,7.21,0.32,1.67

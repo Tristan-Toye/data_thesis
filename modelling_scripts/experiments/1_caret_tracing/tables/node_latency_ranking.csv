@@ -1,0 +1,16 @@
+node_name,latency_ms,percentage_of_total,percentage_of_longest_path,in_longest_path,num_paths
+/autoware/lidar_centerpoint,45.2,13.5,18.17,True,6
+/autoware/ndt_scan_matcher,38.7,11.56,15.55,True,1
+/autoware/occupancy_grid_map_node,35.1,10.49,14.11,True,1
+/autoware/euclidean_cluster,32.4,9.68,13.02,True,6
+/autoware/multi_object_tracker,28.6,8.54,11.5,True,3
+/autoware/pointcloud_concatenate_data,25.8,7.71,10.37,True,2
+/autoware/behavior_path_planner,22.1,6.6,8.88,True,2
+/autoware/map_based_prediction,20.9,6.24,8.4,True,2
+/autoware/motion_velocity_planner,18.5,5.53,0,False,6
+/autoware/ekf_localizer,15.3,4.57,0,False,1
+/autoware/shape_estimation,14.2,4.24,0,False,6
+/autoware/autonomous_emergency_braking,12.7,3.79,0,False,6
+/autoware/trajectory_follower_controller,10.5,3.14,0,False,5
+/autoware/mission_planner,8.4,2.51,0,False,1
+/autoware/velocity_smoother,6.3,1.88,0,False,5

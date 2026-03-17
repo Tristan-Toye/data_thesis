@@ -1,0 +1,6 @@
+=== miniperf roofline results for occupancy_grid_map_node ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| occupancy_grid_map_node::process_loop_0  |     0.4245 |         13.3954 | Memory   |
+| occupancy_grid_map_node::process_loop_1  |     0.9246 |         69.6593 | Memory   |

@@ -1,0 +1,21 @@
+# started on Mon Mar 16 17:07:25 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_shape_estimation shape_estimation_node --ros-args --params-file /tmp/sweep_shape_estimation_use_ml_shape_estimator_True_r1.yaml -r __ns:=/perception/object_recognition/detection/clustering -r __node:=shape_estimation --ros-args -p use_sim_time:=true':
+
+     3.599.621.748      instructions                     #    1,06  insn per cycle              (56,29%)
+     3.389.864.447      cycles                                                                  (67,29%)
+        46.127.502      L1-dcache-load-misses            #    4,97% of all L1-dcache accesses   (66,57%)
+       927.550.852      L1-dcache-loads                                                         (65,94%)
+         1.908.391      LLC-load-misses                  #   16,53% of all LL-cache accesses    (65,80%)
+        11.547.656      LLC-loads                                                               (66,47%)
+       108.099.694      cache-references                                                        (44,94%)
+        20.727.953      cache-misses                     #   19,17% of all cache refs           (45,15%)
+        22.834.419      bus-cycles                                                              (45,13%)
+
+       1,079103466 seconds time elapsed
+
+       0,519219000 seconds user
+       0,524807000 seconds sys
+
+

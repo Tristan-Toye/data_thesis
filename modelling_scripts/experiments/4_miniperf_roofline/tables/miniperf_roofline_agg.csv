@@ -1,0 +1,16 @@
+node_name,weighted_ai,max_performance_gflops,dominant_bound,n_hotspots
+autonomous_emergency_braking,17.6514336881319,180.7611,Compute,4
+behavior_path_planner,28.584044267701096,181.4831,Compute,3
+ekf_localizer,20.911805122662948,157.9309,Compute,4
+euclidean_cluster,5.092919853908015,136.4342,Compute,2
+lidar_centerpoint,0.9940599398357859,64.5111,Memory,2
+map_based_prediction,6.629524180754171,184.6725,Compute,4
+mission_planner,33.94271155500992,208.8986,Compute,2
+motion_velocity_planner,24.879593452450454,192.0979,Compute,4
+multi_object_tracker,5.615530343914002,163.8963,Compute,4
+ndt_scan_matcher,1.4365098418785718,85.5292,Memory,3
+occupancy_grid_map_node,0.8439418368858115,69.6593,Memory,2
+pointcloud_concatenate_data,1.720193522249772,28.7723,Memory,3
+shape_estimation,8.64991668692044,200.3163,Compute,4
+trajectory_follower_controller,20.06350344318479,150.2113,Compute,3
+velocity_smoother,30.68483217335636,188.322,Compute,4

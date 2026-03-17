@@ -1,0 +1,21 @@
+# started on Mon Mar 16 03:55:10 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_euclidean_cluster euclidean_cluster_node --ros-args --params-file /tmp/sweep_euclidean_cluster_tolerance_1.5_r1.yaml -r __ns:=/perception/object_recognition/detection/clustering -r __node:=euclidean_cluster --ros-args -p use_sim_time:=true':
+
+     4.820.006.803      instructions                     #    0,79  insn per cycle              (50,40%)
+     6.079.494.149      cycles                                                                  (62,85%)
+        88.868.446      L1-dcache-load-misses            #    7,70% of all L1-dcache accesses   (64,39%)
+     1.154.391.773      L1-dcache-loads                                                         (66,47%)
+         8.272.182      LLC-load-misses                  #   32,49% of all LL-cache accesses    (69,26%)
+        25.463.506      LLC-loads                                                               (70,01%)
+       260.194.799      cache-references                                                        (45,58%)
+        56.260.783      cache-misses                     #   21,62% of all cache refs           (43,43%)
+        41.898.121      bus-cycles                                                              (40,86%)
+
+     143,253065028 seconds time elapsed
+
+       1,097516000 seconds user
+       0,952903000 seconds sys
+
+

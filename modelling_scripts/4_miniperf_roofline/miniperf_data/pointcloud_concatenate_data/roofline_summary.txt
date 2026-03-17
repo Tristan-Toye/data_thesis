@@ -1,0 +1,7 @@
+=== miniperf roofline results for pointcloud_concatenate_data ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| pointcloud_concatenate_data::process_loop_0 |     1.2545 |         20.7794 | Memory   |
+| pointcloud_concatenate_data::process_loop_1 |     2.9039 |         28.7723 | Compute  |
+| pointcloud_concatenate_data::process_loop_2 |     0.8198 |         27.0783 | Memory   |

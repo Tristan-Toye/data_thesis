@@ -1,0 +1,16 @@
+metric,value,formatted
+L1-dcache-load-misses,809579,"809,579"
+L1-dcache-loads,8729138,"8,729,138"
+L1-icache-load-misses,645841,"645,841"
+L1-icache-loads,35722165,"35,722,165"
+branch-misses,142575,"142,575"
+branches,7288138,"7,288,138"
+cache-misses,568109,"568,109"
+cache-references,1466713,"1,466,713"
+cpu-cycles,56760000,"56,760,000"
+dTLB-load-misses,132328,"132,328"
+dTLB-loads,8729138,"8,729,138"
+iTLB-load-misses,15491,"15,491"
+iTLB-loads,35722165,"35,722,165"
+instructions,31218000,"31,218,000"
+page-faults,195,195

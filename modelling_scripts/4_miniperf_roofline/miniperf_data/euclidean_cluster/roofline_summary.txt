@@ -1,0 +1,6 @@
+=== miniperf roofline results for euclidean_cluster ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| euclidean_cluster::process_loop_0        |     3.3453 |         61.0715 | Compute  |
+| euclidean_cluster::process_loop_1        |     5.8752 |        136.4342 | Compute  |

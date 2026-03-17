@@ -1,0 +1,21 @@
+# started on Mon Mar 16 03:11:35 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_ekf_localizer autoware_ekf_localizer_node --ros-args --params-file /tmp/sweep_ekf_localizer_tf_rate_50.0_r1.yaml -r __ns:=/localization/pose_twist_fusion_filter -r __node:=ekf_localizer --ros-args -p use_sim_time:=true':
+
+     5.736.785.091      instructions                     #    0,52  insn per cycle              (54,68%)
+    11.111.013.333      cycles                                                                  (66,54%)
+       122.473.190      L1-dcache-load-misses            #    8,27% of all L1-dcache accesses   (67,12%)
+     1.481.610.175      L1-dcache-loads                                                         (67,89%)
+        21.091.820      LLC-load-misses                  #   41,67% of all LL-cache accesses    (67,57%)
+        50.613.681      LLC-loads                                                               (66,67%)
+       552.689.904      cache-references                                                        (43,45%)
+       173.056.213      cache-misses                     #   31,31% of all cache refs           (43,37%)
+        76.433.236      bus-cycles                                                              (43,93%)
+
+     139,370966473 seconds time elapsed
+
+       2,484276000 seconds user
+       1,460302000 seconds sys
+
+

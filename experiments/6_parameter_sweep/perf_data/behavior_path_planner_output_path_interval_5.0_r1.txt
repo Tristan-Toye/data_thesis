@@ -1,0 +1,21 @@
+# started on Mon Mar 16 06:43:43 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_behavior_path_planner autoware_behavior_path_planner_node --ros-args --params-file /tmp/sweep_behavior_path_planner_output_path_interval_5.0_r1.yaml -r __ns:=/planning/scenario_planning/lane_driving/behavior_planning -r __node:=behavior_path_planner --ros-args -p use_sim_time:=true':
+
+    12.141.876.397      instructions                     #    0,57  insn per cycle              (55,97%)
+    21.273.964.833      cycles                                                                  (66,37%)
+       317.489.244      L1-dcache-load-misses            #    9,20% of all L1-dcache accesses   (65,90%)
+     3.451.939.294      L1-dcache-loads                                                         (66,46%)
+        27.457.131      LLC-load-misses                  #   20,88% of all LL-cache accesses    (66,17%)
+       131.506.649      LLC-loads                                                               (66,67%)
+     1.067.803.123      cache-references                                                        (44,99%)
+       199.260.560      cache-misses                     #   18,66% of all cache refs           (44,79%)
+       147.334.277      bus-cycles                                                              (45,02%)
+
+     149,721254986 seconds time elapsed
+
+       5,521696000 seconds user
+       1,748706000 seconds sys
+
+

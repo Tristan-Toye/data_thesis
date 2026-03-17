@@ -1,0 +1,21 @@
+# started on Mon Mar 16 15:15:08 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_mission_planner mission_planner --ros-args --params-file /tmp/sweep_mission_planner_minimum_reroute_length_15.0_r1.yaml -r __ns:=/planning/mission_planning -r __node:=mission_planner -p arrival_check_distance:=5.0 --ros-args -p use_sim_time:=true':
+
+     4.751.872.098      instructions                     #    0,63  insn per cycle              (55,56%)
+     7.589.504.824      cycles                                                                  (65,52%)
+        90.818.254      L1-dcache-load-misses            #    7,40% of all L1-dcache accesses   (67,14%)
+     1.227.460.153      L1-dcache-loads                                                         (65,02%)
+        11.575.226      LLC-load-misses                  #   35,78% of all LL-cache accesses    (64,05%)
+        32.347.858      LLC-loads                                                               (64,53%)
+       340.495.230      cache-references                                                        (46,16%)
+        92.172.598      cache-misses                     #   27,07% of all cache refs           (47,40%)
+        52.127.900      bus-cycles                                                              (45,70%)
+
+     139,660327185 seconds time elapsed
+
+       1,464730000 seconds user
+       1,139933000 seconds sys
+
+

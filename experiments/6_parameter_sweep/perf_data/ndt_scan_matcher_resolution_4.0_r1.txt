@@ -1,0 +1,21 @@
+# started on Mon Mar 16 01:44:22 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_ndt_scan_matcher autoware_ndt_scan_matcher_node --ros-args --params-file /tmp/sweep_ndt_scan_matcher_resolution_4.0_r1.yaml -r __ns:=/localization/pose_estimator -r __node:=ndt_scan_matcher --ros-args -p use_sim_time:=true':
+
+     4.973.016.290      instructions                     #    0,62  insn per cycle              (56,77%)
+     8.033.573.079      cycles                                                                  (67,52%)
+       100.704.559      L1-dcache-load-misses            #    7,70% of all L1-dcache accesses   (66,00%)
+     1.308.492.816      L1-dcache-loads                                                         (65,66%)
+        12.042.350      LLC-load-misses                  #   33,75% of all LL-cache accesses    (66,20%)
+        35.684.503      LLC-loads                                                               (67,38%)
+       364.720.032      cache-references                                                        (45,14%)
+        90.227.531      cache-misses                     #   24,74% of all cache refs           (44,81%)
+        55.498.458      bus-cycles                                                              (44,81%)
+
+     143,239139840 seconds time elapsed
+
+       1,562487000 seconds user
+       1,179349000 seconds sys
+
+

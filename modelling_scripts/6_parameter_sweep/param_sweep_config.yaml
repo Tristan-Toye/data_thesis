@@ -1,0 +1,321 @@
+# Parameter Sweep Configuration
+# Sweeps each parameter one-at-a-time with 3 levels: [low, default, high]
+# Other parameters remain at default during each sweep.
+
+repetitions: 1
+
+rosbag_path: "${HOME}/autoware_map/sample-rosbag"
+map_path: "${HOME}/autoware_map/sample-map-rosbag"
+autoware_path: "${HOME}/autoware"
+replayer_path: "${HOME}/ros2_single_node_replayer"
+caret_ws: "${HOME}/ros2_caret_ws"
+output_dir: "${HOME}/scripts/experiments/6_parameter_sweep"
+rosbag_rate: 0.2
+
+# perf stat events to collect
+perf_events: "instructions,cycles,L1-dcache-load-misses,L1-dcache-loads,LLC-load-misses,LLC-loads,cache-references,cache-misses,bus-cycles"
+
+nodes:
+  ndt_scan_matcher:
+    package: autoware_ndt_scan_matcher
+    executable: autoware_ndt_scan_matcher_node
+    namespace: /autoware
+    param_file: "localization/ndt_scan_matcher/ndt_scan_matcher.param.yaml"
+    parameters:
+      resolution:
+        yaml_path: "/**/ros__parameters/ndt/resolution"
+        values: [1.0, 2.0, 4.0]
+        default: 2.0
+      max_iterations:
+        yaml_path: "/**/ros__parameters/ndt/max_iterations"
+        values: [10, 30, 60]
+        default: 30
+      num_threads:
+        yaml_path: "/**/ros__parameters/ndt/num_threads"
+        values: [1, 4, 8]
+        default: 4
+      step_size:
+        yaml_path: "/**/ros__parameters/ndt/step_size"
+        values: [0.05, 0.1, 0.2]
+        default: 0.1
+      trans_epsilon:
+        yaml_path: "/**/ros__parameters/ndt/trans_epsilon"
+        values: [0.001, 0.01, 0.1]
+        default: 0.01
+      particles_num:
+        yaml_path: "/**/ros__parameters/initial_pose_estimation/particles_num"
+        values: [50, 200, 500]
+        default: 200
+      map_radius:
+        yaml_path: "/**/ros__parameters/dynamic_map_loading/map_radius"
+        values: [75.0, 150.0, 300.0]
+        default: 150.0
+      lidar_radius:
+        yaml_path: "/**/ros__parameters/dynamic_map_loading/lidar_radius"
+        values: [50.0, 100.0, 200.0]
+        default: 100.0
+
+  ekf_localizer:
+    package: autoware_ekf_localizer
+    executable: autoware_ekf_localizer_node
+    namespace: /autoware
+    param_file: "localization/ekf_localizer.param.yaml"
+    parameters:
+      predict_frequency:
+        yaml_path: "/**/ros__parameters/node/predict_frequency"
+        values: [20.0, 50.0, 100.0]
+        default: 50.0
+      tf_rate:
+        yaml_path: "/**/ros__parameters/node/tf_rate"
+        values: [20.0, 50.0, 100.0]
+        default: 50.0
+      extend_state_step:
+        yaml_path: "/**/ros__parameters/node/extend_state_step"
+        values: [20, 50, 100]
+        default: 50
+      pose_smoothing_steps:
+        yaml_path: "/**/ros__parameters/pose_measurement/pose_smoothing_steps"
+        values: [1, 5, 15]
+        default: 5
+      twist_smoothing_steps:
+        yaml_path: "/**/ros__parameters/twist_measurement/twist_smoothing_steps"
+        values: [1, 2, 8]
+        default: 2
+
+  euclidean_cluster:
+    package: autoware_euclidean_cluster
+    executable: euclidean_cluster_node
+    namespace: /autoware
+    param_file: "perception/object_recognition/detection/clustering/euclidean_cluster.param.yaml"
+    parameters:
+      tolerance:
+        yaml_path: "/**/ros__parameters/tolerance"
+        values: [0.3, 0.7, 1.5]
+        default: 0.7
+      max_cluster_size:
+        yaml_path: "/**/ros__parameters/max_cluster_size"
+        values: [200, 1000, 5000]
+        default: 1000
+      min_cluster_size:
+        yaml_path: "/**/ros__parameters/min_cluster_size"
+        values: [3, 10, 30]
+        default: 10
+
+  occupancy_grid_map_node:
+    package: autoware_probabilistic_occupancy_grid_map
+    executable: pointcloud_based_occupancy_grid_map_node
+    namespace: /autoware
+    param_file: "perception/occupancy_grid_map/pointcloud_based_occupancy_grid_map.param.yaml"
+    parameters:
+      map_resolution:
+        yaml_path: "/**/ros__parameters/map_resolution"
+        values: [0.25, 0.5, 1.0]
+        default: 0.5
+      map_length:
+        yaml_path: "/**/ros__parameters/map_length"
+        values: [75.0, 150.0, 300.0]
+        default: 150.0
+
+  multi_object_tracker:
+    package: autoware_multi_object_tracker
+    executable: multi_object_tracker_node
+    namespace: /autoware
+    param_file: "perception/object_recognition/tracking/multi_object_tracker/multi_object_tracker_node.param.yaml"
+    parameters:
+      publish_rate:
+        yaml_path: "/**/ros__parameters/publish_rate"
+        values: [5.0, 10.0, 20.0]
+        default: 10.0
+      tracker_lifetime:
+        yaml_path: "/**/ros__parameters/tracker_lifetime"
+        values: [0.5, 1.0, 3.0]
+        default: 1.0
+      enable_delay_compensation:
+        yaml_path: "/**/ros__parameters/enable_delay_compensation"
+        values: [false, true, true]
+        default: true
+
+  map_based_prediction:
+    package: autoware_map_based_prediction
+    executable: map_based_prediction
+    namespace: /autoware
+    param_file: "perception/object_recognition/prediction/map_based_prediction.param.yaml"
+    parameters:
+      prediction_time_horizon_vehicle:
+        yaml_path: "/**/ros__parameters/prediction_time_horizon/vehicle"
+        values: [5.0, 15.0, 30.0]
+        default: 15.0
+      prediction_sampling_delta_time:
+        yaml_path: "/**/ros__parameters/prediction_sampling_delta_time"
+        values: [0.25, 0.5, 1.0]
+        default: 0.5
+      reference_path_resolution:
+        yaml_path: "/**/ros__parameters/reference_path_resolution"
+        values: [0.25, 0.5, 1.0]
+        default: 0.5
+      history_time_length:
+        yaml_path: "/**/ros__parameters/history_time_length"
+        values: [0.5, 1.0, 3.0]
+        default: 1.0
+      object_buffer_time_length:
+        yaml_path: "/**/ros__parameters/object_buffer_time_length"
+        values: [1.0, 2.0, 5.0]
+        default: 2.0
+
+  behavior_path_planner:
+    package: autoware_behavior_path_planner
+    executable: autoware_behavior_path_planner_node
+    namespace: /autoware
+    param_file: "planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml"
+    parameters:
+      planning_hz:
+        yaml_path: "/**/ros__parameters/planning_hz"
+        values: [5.0, 10.0, 20.0]
+        default: 10.0
+      forward_path_length:
+        yaml_path: "/**/ros__parameters/forward_path_length"
+        values: [150.0, 300.0, 500.0]
+        default: 300.0
+      input_path_interval:
+        yaml_path: "/**/ros__parameters/input_path_interval"
+        values: [1.0, 2.0, 5.0]
+        default: 2.0
+      output_path_interval:
+        yaml_path: "/**/ros__parameters/output_path_interval"
+        values: [1.0, 2.0, 5.0]
+        default: 2.0
+
+  autonomous_emergency_braking:
+    package: autoware_autonomous_emergency_braking
+    executable: autoware_autonomous_emergency_braking
+    namespace: /autoware
+    param_file: "control/autoware_autonomous_emergency_braking/autonomous_emergency_braking.param.yaml"
+    parameters:
+      voxel_grid_x:
+        yaml_path: "/**/ros__parameters/voxel_grid_x"
+        values: [0.05, 0.1, 0.2]
+        default: 0.1
+      voxel_grid_y:
+        yaml_path: "/**/ros__parameters/voxel_grid_y"
+        values: [0.05, 0.1, 0.2]
+        default: 0.1
+      cluster_tolerance:
+        yaml_path: "/**/ros__parameters/cluster_tolerance"
+        values: [0.075, 0.15, 0.3]
+        default: 0.15
+      aeb_hz:
+        yaml_path: "/**/ros__parameters/aeb_hz"
+        values: [5.0, 10.0, 20.0]
+        default: 10.0
+      mpc_prediction_time_horizon:
+        yaml_path: "/**/ros__parameters/mpc_prediction_time_horizon"
+        values: [2.0, 4.5, 8.0]
+        default: 4.5
+
+  velocity_smoother:
+    package: autoware_velocity_smoother
+    executable: velocity_smoother_node
+    namespace: /autoware
+    param_file: "planning/scenario_planning/common/autoware_velocity_smoother/velocity_smoother.param.yaml"
+    parameters:
+      resample_ds:
+        yaml_path: "/**/ros__parameters/resample_ds"
+        values: [0.05, 0.1, 0.2]
+        default: 0.1
+      max_trajectory_length:
+        yaml_path: "/**/ros__parameters/max_trajectory_length"
+        values: [100.0, 200.0, 400.0]
+        default: 200.0
+      dense_resample_dt:
+        yaml_path: "/**/ros__parameters/dense_resample_dt"
+        values: [0.1, 0.2, 0.5]
+        default: 0.2
+      extract_ahead_dist:
+        yaml_path: "/**/ros__parameters/extract_ahead_dist"
+        values: [100.0, 200.0, 400.0]
+        default: 200.0
+
+  pointcloud_concatenate_data:
+    package: autoware_pointcloud_preprocessor
+    executable: concatenate_and_time_sync_node
+    namespace: /autoware
+    param_file: "concatenate_and_time_sync_node.param.yaml"
+    parameters:
+      timeout_sec:
+        yaml_path: "/**/ros__parameters/timeout_sec"
+        values: [0.05, 0.2, 0.5]
+        default: 0.2
+      maximum_queue_size:
+        yaml_path: "/**/ros__parameters/maximum_queue_size"
+        values: [2, 5, 10]
+        default: 5
+
+  trajectory_follower_controller:
+    package: autoware_trajectory_follower_node
+    executable: controller_node_exe
+    namespace: /autoware
+    param_file: "control/trajectory_follower/trajectory_follower_node.param.yaml"
+    parameters:
+      ctrl_period:
+        yaml_path: "/**/ros__parameters/ctrl_period"
+        values: [0.01, 0.03, 0.05]
+        default: 0.03
+      timeout_thr_sec:
+        yaml_path: "/**/ros__parameters/timeout_thr_sec"
+        values: [0.25, 0.5, 1.0]
+        default: 0.5
+
+  mission_planner:
+    package: autoware_mission_planner
+    executable: mission_planner
+    namespace: /autoware
+    param_file: "planning/mission_planning/mission_planner/mission_planner.param.yaml"
+    parameters:
+      reroute_time_threshold:
+        yaml_path: "/**/ros__parameters/reroute_time_threshold"
+        values: [5.0, 10.0, 20.0]
+        default: 10.0
+      minimum_reroute_length:
+        yaml_path: "/**/ros__parameters/minimum_reroute_length"
+        values: [15.0, 30.0, 60.0]
+        default: 30.0
+
+  shape_estimation:
+    package: autoware_shape_estimation
+    executable: shape_estimation_node
+    namespace: /autoware
+    param_file: "shape_estimation.param.yaml"
+    parameters:
+      use_filter:
+        yaml_path: "/**/ros__parameters/use_filter"
+        values: [false, true, true]
+        default: true
+      use_boost_bbox_optimizer:
+        yaml_path: "/**/ros__parameters/use_boost_bbox_optimizer"
+        values: [false, true, true]
+        default: false
+
+  lidar_centerpoint:
+    package: autoware_lidar_centerpoint
+    executable: autoware_lidar_centerpoint_node
+    namespace: /autoware
+    param_file: "perception/object_recognition/detection/lidar_model/centerpoint.param.yaml"
+    parameters:
+      num_past_frames:
+        yaml_path: "/**/ros__parameters/densification_params/num_past_frames"
+        values: [0, 1, 3]
+        default: 1
+      cloud_capacity:
+        yaml_path: "/**/ros__parameters/cloud_capacity"
+        values: [500000, 2000000, 5000000]
+        default: 2000000
+      circle_nms_dist_threshold:
+        yaml_path: "/**/ros__parameters/post_process_params/circle_nms_dist_threshold"
+        values: [0.2, 0.5, 1.0]
+        default: 0.5
+
+  # motion_velocity_planner is excluded from the sweep because in isolation it
+  # depends on many statically-typed vehicle parameters (front_overhang, etc.)
+  # normally provided via the shared vehicle_info pipeline. Recreating that
+  # pipeline for a single node would break the isolated-node assumption and
+  # significantly complicate the experiment.

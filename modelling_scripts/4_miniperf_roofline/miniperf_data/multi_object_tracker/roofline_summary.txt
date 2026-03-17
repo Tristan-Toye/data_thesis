@@ -1,0 +1,8 @@
+=== miniperf roofline results for multi_object_tracker ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| multi_object_tracker::process_loop_0     |     2.6342 |        119.0971 | Compute  |
+| multi_object_tracker::process_loop_1     |     6.0875 |         84.8326 | Compute  |
+| multi_object_tracker::process_loop_2     |     7.2561 |        163.8963 | Compute  |
+| multi_object_tracker::process_loop_3     |     6.3386 |         63.8197 | Compute  |

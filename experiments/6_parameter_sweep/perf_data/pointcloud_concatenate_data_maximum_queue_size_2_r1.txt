@@ -1,0 +1,21 @@
+# started on Mon Mar 16 08:34:32 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_pointcloud_preprocessor concatenate_and_time_sync_node --ros-args --params-file /tmp/sweep_pointcloud_concatenate_data_maximum_queue_size_2_r1.yaml -r __ns:=/sensing/lidar -r __node:=concatenate_data --ros-args -p use_sim_time:=true':
+
+     5.306.594.612      instructions                     #    0,77  insn per cycle              (55,02%)
+     6.870.218.036      cycles                                                                  (66,44%)
+       110.145.700      L1-dcache-load-misses            #    8,09% of all L1-dcache accesses   (64,75%)
+     1.362.174.267      L1-dcache-loads                                                         (65,31%)
+         8.516.610      LLC-load-misses                  #   27,60% of all LL-cache accesses    (66,15%)
+        30.859.506      LLC-loads                                                               (67,08%)
+       285.935.395      cache-references                                                        (45,58%)
+        64.902.029      cache-misses                     #   22,70% of all cache refs           (46,25%)
+        47.074.367      bus-cycles                                                              (44,87%)
+
+     142,239770644 seconds time elapsed
+
+       1,169503000 seconds user
+       1,125267000 seconds sys
+
+

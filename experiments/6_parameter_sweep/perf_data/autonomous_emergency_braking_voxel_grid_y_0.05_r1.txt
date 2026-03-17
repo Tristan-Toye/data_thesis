@@ -1,0 +1,21 @@
+# started on Mon Mar 16 07:00:31 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_autonomous_emergency_braking autoware_autonomous_emergency_braking --ros-args --params-file /tmp/sweep_autonomous_emergency_braking_voxel_grid_y_0.05_r1.yaml -r __ns:=/control -r __node:=autonomous_emergency_braking --ros-args -p use_sim_time:=true':
+
+     5.401.012.714      instructions                     #    0,62  insn per cycle              (56,72%)
+     8.667.607.716      cycles                                                                  (68,25%)
+       128.901.126      L1-dcache-load-misses            #    9,04% of all L1-dcache accesses   (68,07%)
+     1.425.377.457      L1-dcache-loads                                                         (66,59%)
+        12.869.119      LLC-load-misses                  #   31,10% of all LL-cache accesses    (66,28%)
+        41.373.688      LLC-loads                                                               (65,67%)
+       412.821.001      cache-references                                                        (43,90%)
+        98.565.648      cache-misses                     #   23,88% of all cache refs           (44,18%)
+        59.884.757      bus-cycles                                                              (45,31%)
+
+     149,821844142 seconds time elapsed
+
+       1,770719000 seconds user
+       1,209590000 seconds sys
+
+

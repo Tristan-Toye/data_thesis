@@ -1,0 +1,21 @@
+# started on Mon Mar 16 04:24:04 2026
+
+
+ Performance counter stats for 'bash -c ros2 run autoware_probabilistic_occupancy_grid_map pointcloud_based_occupancy_grid_map_node --ros-args --params-file /tmp/sweep_occupancy_grid_map_node_map_resolution_0.5_r1.yaml -r __ns:=/perception/occupancy_grid_map -r __node:=occupancy_grid_map_node --ros-args -p use_sim_time:=true':
+
+     4.961.298.340      instructions                     #    0,63  insn per cycle              (55,37%)
+     7.838.470.721      cycles                                                                  (65,19%)
+        94.421.334      L1-dcache-load-misses            #    7,57% of all L1-dcache accesses   (63,95%)
+     1.246.575.127      L1-dcache-loads                                                         (66,79%)
+        11.515.770      LLC-load-misses                  #   34,68% of all LL-cache accesses    (66,30%)
+        33.205.375      LLC-loads                                                               (65,91%)
+       355.540.030      cache-references                                                        (46,77%)
+        89.726.365      cache-misses                     #   25,24% of all cache refs           (45,10%)
+        53.902.477      bus-cycles                                                              (45,18%)
+
+     143,191855677 seconds time elapsed
+
+       1,391993000 seconds user
+       1,322607000 seconds sys
+
+

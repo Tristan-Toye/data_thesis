@@ -1,0 +1,4 @@
+| Counter          | Value          | Info | Scaling | Description              |
+|------------------|----------------|------|---------|-------------------------|
+| cycles           |    103,443,020 |      | 1.0     | CPU cycles               |
+| instructions     |     46,002,598 |      | 1.0     | Instructions retired     |

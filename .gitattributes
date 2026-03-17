@@ -1,0 +1,4 @@
+modelling_scripts/1_caret_tracing/trace_data/** filter=lfs diff=lfs merge=lfs -text
+modelling_scripts/experiments/5_miniperf_roofline/ir_output/** filter=lfs diff=lfs merge=lfs -text
+experiments/6_parameter_sweep/sweep_traces/** filter=lfs diff=lfs merge=lfs -text
+

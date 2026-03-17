@@ -1,0 +1,8 @@
+=== miniperf roofline results for motion_velocity_planner ===
+
+| Loop / Function                          | AI (FLOPs/B) | Perf (GFLOPs/s) | Bound    |
+|------------------------------------------|--------------|-----------------|----------|
+| motion_velocity_planner::process_loop_0  |    15.0184 |        192.0979 | Compute  |
+| motion_velocity_planner::process_loop_1  |    17.5081 |         29.5570 | Compute  |
+| motion_velocity_planner::process_loop_2  |    25.7361 |        119.9465 | Compute  |
+| motion_velocity_planner::process_loop_3  |    38.1278 |        151.6778 | Compute  |
