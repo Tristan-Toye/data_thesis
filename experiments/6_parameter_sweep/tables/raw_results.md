@@ -37,7 +37,25 @@ This CSV file contains one row per (node, parameter, value, repetition) combinat
 ## Measurement Method
 
 - **Latency**: Extracted from LTTng/CARET traces using `extract_callback_latency.py`. CARET instruments ROS 2 callback start/end events at microsecond resolution.
-- **PMU counters**: Collected via `perf stat` attached to the node process PID. Requires `perf_event_paranoid <= 1`.
+- **PMU counters**: Collected via `perf stat` by running the node *under* `perf` (not `-p PID`). Requires `perf_event_paranoid <= 1` and `kernel.nmi_watchdog=0` during the sweep.
+
+### perf commands used
+
+For each run (identified as `${sweep_id}`), we record to `perf_data/${sweep_id}.txt` with:
+
+```bash
+# When CARET is enabled (LD_PRELOAD=${CARET_LIB}):
+env LD_PRELOAD=${CARET_LIB} perf stat \
+  -e instructions,cycles,L1-dcache-load-misses,L1-dcache-loads,LLC-load-misses,LLC-loads,cache-references,cache-misses,bus-cycles \
+  -o "perf_data/${sweep_id}.txt" -- bash -c "${run_cmd}"
+
+# When CARET is disabled:
+perf stat \
+  -e instructions,cycles,L1-dcache-load-misses,L1-dcache-loads,LLC-load-misses,LLC-loads,cache-references,cache-misses,bus-cycles \
+  -o "perf_data/${sweep_id}.txt" -- bash -c "${run_cmd}"
+```
+
+These `perf stat` outputs are parsed inside `run_parameter_sweep.sh` by the inline `parse_perf_stat` Python helper, which fills the `instructions`, `cycles`, cache, and `bus_cycles` columns.
 
 ## Notes
 
