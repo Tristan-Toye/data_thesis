@@ -25,17 +25,16 @@ except ImportError as e:
 
 SCRIPT_DIR = Path(__file__).parent
 SCRIPTS_ROOT = SCRIPT_DIR.parent.parent  # scripts/
-CONFIG_FILE = SCRIPT_DIR / "orin_roofline_config.yaml"
+DEFAULT_CONFIG = SCRIPT_DIR / "orin_roofline_config.yaml"
 DEFAULT_OUTPUT = SCRIPTS_ROOT / "experiments" / "7_roofline_drafting" / "graphs"
 
 
-def load_config() -> dict:
-    with open(CONFIG_FILE, "r") as f:
+def load_config(path: Path) -> dict:
+    with open(path, "r") as f:
         return yaml.safe_load(f)
 
 
-def plot_roofline(output_dir: Path) -> None:
-    cfg = load_config()
+def plot_roofline(output_dir: Path, cfg: dict) -> None:
     hw = cfg.get("hardware", {})
     cpu = hw.get("cpu", {})
     peak_bw = cpu.get("peak_memory_bandwidth_GBps", 204.8)
@@ -97,23 +96,36 @@ def plot_roofline(output_dir: Path) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Plot standalone roofline (Orin AGX)")
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT,
-                        help="Output directory for graphs")
+    parser = argparse.ArgumentParser(description="Plot standalone roofline")
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=DEFAULT_CONFIG,
+        help="YAML config file with hardware ceilings",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=DEFAULT_OUTPUT,
+        help="Output directory for graphs",
+    )
     args = parser.parse_args()
 
     print("=" * 60)
-    print("Roofline Model — Standalone (Orin AGX)")
+    print("Roofline Model — Standalone")
     print("=" * 60)
-    cfg = load_config()
+
+    cfg = load_config(args.config)
     hw = cfg.get("hardware", {})
     cpu = hw.get("cpu", {})
-    print(f"\nHardware: {hw.get('name', 'unknown')}")
-    print(f"  Peak FP32 SIMD: {cpu.get('peak_fp32_simd_gflops', 422.4)} GFLOPs/s")
-    print(f"  Peak BW: {cpu.get('peak_memory_bandwidth_GBps', 204.8)} GB/s")
-    print(f"  Ridge point: {422.4 / 204.8:.2f} FLOPs/byte")
+    print(f"\nConfig:  {args.config}")
+    print(f"Hardware: {hw.get('name', 'unknown')}")
+    print(f"  Peak FP32 SIMD: {cpu.get('peak_fp32_simd_gflops', 0.0)} GFLOPs/s")
+    print(f"  Peak BW: {cpu.get('peak_memory_bandwidth_GBps', 0.0)} GB/s")
+    if cpu.get("peak_memory_bandwidth_GBps", 0) and cpu.get("peak_fp32_simd_gflops", 0):
+        print(f"  Ridge point: {cpu['peak_fp32_simd_gflops'] / cpu['peak_memory_bandwidth_GBps']:.2f} FLOPs/byte")
     print("\nGenerating roofline plot...")
-    plot_roofline(args.output_dir)
+    plot_roofline(args.output_dir, cfg)
     print("\n" + "=" * 60)
 
 

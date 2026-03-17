@@ -30,7 +30,7 @@ except ImportError as e:
 
 SCRIPT_DIR = Path(__file__).parent
 SCRIPTS_ROOT = SCRIPT_DIR.parent.parent  # scripts/
-CONFIG_FILE = SCRIPT_DIR / "orin_roofline_config.yaml"
+DEFAULT_CONFIG = SCRIPT_DIR / "orin_roofline_config.yaml"
 DEFAULT_INPUT = SCRIPTS_ROOT / "experiments" / "6_parameter_sweep" / "tables" / "raw_results.csv"
 DEFAULT_OUTPUT = SCRIPTS_ROOT / "experiments" / "7_roofline_drafting" / "graphs"
 
@@ -41,8 +41,8 @@ ACCENT_COLORS = [
 ]
 
 
-def load_config() -> dict:
-    with open(CONFIG_FILE, "r") as f:
+def load_config(path: Path) -> dict:
+    with open(path, "r") as f:
         return yaml.safe_load(f)
 
 
@@ -198,10 +198,24 @@ def plot_roofline_with_data(df: pd.DataFrame, output_dir: Path, cfg: dict) -> No
 
 def main():
     parser = argparse.ArgumentParser(description="Plot roofline with experiment 6 data")
-    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT,
-                        help="Path to raw_results.csv")
-    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT,
-                        help="Output directory for graphs")
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=DEFAULT_CONFIG,
+        help="YAML config file with hardware ceilings",
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=DEFAULT_INPUT,
+        help="Path to raw_results.csv",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=DEFAULT_OUTPUT,
+        help="Output directory for graphs",
+    )
     args = parser.parse_args()
 
     print("=" * 60)
@@ -212,8 +226,9 @@ def main():
         print(f"ERROR: Input file not found: {args.input}")
         sys.exit(1)
 
-    cfg = load_config()
-    print(f"\nLoading: {args.input}")
+    cfg = load_config(args.config)
+    print(f"\nConfig:  {args.config}")
+    print(f"Loading: {args.input}")
     df = load_experiment6_data(args.input)
     print(f"  Valid rows: {len(df)}")
     print(f"  Nodes: {df['node'].nunique()}")

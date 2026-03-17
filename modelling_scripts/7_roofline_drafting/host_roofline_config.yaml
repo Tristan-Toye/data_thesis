@@ -1,0 +1,22 @@
+# Host Laptop Roofline Configuration
+# Approximate theoretical ceilings for Intel Core i7-7700HQ system.
+#
+# Assumptions:
+# - CPU: Intel Core i7-7700HQ (4 cores, 8 threads)
+#   - Max turbo: ~3.8 GHz
+#   - AVX2 (256-bit) with 2 FMA units per core
+#   - FP32 SIMD peak ≈ 4 cores * 3.8 GHz * 32 FLOPs/cycle ≈ 486.4 GFLOPs/s
+#   - FP32 "scalar" peak (single vector pipeline) ≈ 121.6 GFLOPs/s
+# - Memory: Dual-channel DDR4-2400
+#   - Theoretical peak bandwidth ≈ 38.4 GB/s
+
+hardware:
+  name: "Intel Core i7-7700HQ (Host Laptop)"
+  cpu:
+    peak_fp32_gflops: 121.6
+    peak_fp32_simd_gflops: 486.4
+    peak_fp64_gflops: 243.2
+    peak_memory_bandwidth_GBps: 38.4
+  ridge_point_simd: 12.67   # 486.4 / 38.4 FLOPs/byte
+  ridge_point_scalar: 3.17  # 121.6 / 38.4 FLOPs/byte
+

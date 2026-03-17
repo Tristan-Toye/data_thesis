@@ -12,11 +12,11 @@ This CSV file contains one row per (node, parameter, value, repetition) combinat
 | `parameter` | — | Name of the parameter being swept |
 | `value` | — | The value the parameter was set to for this run |
 | `run_id` | — | Repetition number (1-based) |
-| `callback_count` | count | Number of callback invocations observed |
-| `latency_mean_us` | µs | Mean callback duration |
-| `latency_min_us` | µs | Minimum callback duration |
-| `latency_max_us` | µs | Maximum callback duration |
-| `latency_std_us` | µs | Standard deviation of callback duration |
+| `callback_count` | count | Number of callback invocations observed (number of `ros2:callback_start` / `ros2:callback_end` pairs) |
+| `latency_mean_us` | µs | Mean callback duration, defined as `t_callback_end − t_callback_start` for a single callback (from CARET’s `ros2:callback_start` to `ros2:callback_end`) |
+| `latency_min_us` | µs | Minimum callback duration over all observed callbacks (min of `t_callback_end − t_callback_start`) |
+| `latency_max_us` | µs | Maximum callback duration over all observed callbacks (max of `t_callback_end − t_callback_start`) |
+| `latency_std_us` | µs | Standard deviation of callback duration (`t_callback_end − t_callback_start`) |
 | `latency_p50_us` | µs | 50th percentile (median) callback duration |
 | `latency_p95_us` | µs | 95th percentile callback duration |
 | `latency_p99_us` | µs | 99th percentile callback duration |
@@ -36,7 +36,7 @@ This CSV file contains one row per (node, parameter, value, repetition) combinat
 
 ## Measurement Method
 
-- **Latency**: Extracted from LTTng/CARET traces using `extract_callback_latency.py`. CARET instruments ROS 2 callback start/end events at microsecond resolution.
+- **Latency**: Extracted from LTTng/CARET traces using `extract_callback_latency.py`. For each callback, CARET records `ros2:callback_start` and `ros2:callback_end`; the callback duration is `t_callback_end − t_callback_start`, covering the full execution of the callback function (including any internal publishes and post-publish work), but not the time until the next node starts processing the output.
 - **PMU counters**: Collected via `perf stat` by running the node *under* `perf` (not `-p PID`). Requires `perf_event_paranoid <= 1` and `kernel.nmi_watchdog=0` during the sweep.
 
 ### perf commands used
